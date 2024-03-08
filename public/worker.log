@@ -1,0 +1,2279 @@
+[2023-07-02 00:35:33][1] Processing: App\Jobs\AlertEmployee
+[2023-07-02 00:35:34][1] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 00:35:34][2] Processing: App\Jobs\ClosedJob
+[2023-07-02 00:35:34][2] Processed:  App\Jobs\ClosedJob
+[2023-07-02 00:35:34][3] Processing: App\Jobs\AlertEmployee
+[2023-07-02 00:35:34][3] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 00:35:35][4] Processing: App\Jobs\BalanceCreated
+[2023-07-02 00:35:35][4] Processed:  App\Jobs\BalanceCreated
+[2023-07-02 00:35:35][5] Processing: App\Jobs\AlertEmployee
+[2023-07-02 00:35:35][5] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 00:35:36][6] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][6] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][7] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][7] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][8] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][8] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][9] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:36][9] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][10] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][10] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][11] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][11] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][12] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][12] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][13] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:37][13] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][14] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][14] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][15] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][15] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][16] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][16] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:35:38][17] Processing: App\Mail\NotifyEmployee
+[2023-07-02 00:35:39][17] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 00:35:40][18] Processing: App\Events\NewNotification
+[2023-07-02 00:35:40][18] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:40][19] Processing: App\Events\NewNotification
+[2023-07-02 00:35:40][19] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:40][20] Processing: App\Events\NewNotification
+[2023-07-02 00:35:41][20] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:41][21] Processing: App\Events\NewNotification
+[2023-07-02 00:35:41][21] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:41][22] Processing: App\Events\NewNotification
+[2023-07-02 00:35:41][22] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:42][23] Processing: App\Events\NewNotification
+[2023-07-02 00:35:42][23] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:42][24] Processing: App\Mail\NotifyEmployee
+[2023-07-02 00:35:43][24] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 00:35:43][25] Processing: App\Events\NewNotification
+[2023-07-02 00:35:43][25] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:43][26] Processing: App\Events\NewNotification
+[2023-07-02 00:35:43][26] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:44][27] Processing: App\Events\NewNotification
+[2023-07-02 00:35:44][27] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:44][28] Processing: App\Mail\BalanceCreated
+[2023-07-02 00:35:44][28] Processed:  App\Mail\BalanceCreated
+[2023-07-02 00:35:45][29] Processing: App\Mail\NotifyEmployee
+[2023-07-02 00:35:45][29] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 00:35:45][30] Processing: App\Mail\NotifyEmployee
+[2023-07-02 00:35:46][30] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 00:35:46][31] Processing: App\Events\NewNotification
+[2023-07-02 00:35:46][31] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:47][32] Processing: App\Events\NewNotification
+[2023-07-02 00:35:47][32] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:47][33] Processing: App\Events\NewNotification
+[2023-07-02 00:35:47][33] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:47][34] Processing: App\Events\NewNotification
+[2023-07-02 00:35:47][34] Processed:  App\Events\NewNotification
+[2023-07-02 00:35:48][35] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:48][35] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:48][36] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:49][36] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:49][37] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:50][37] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:50][38] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:50][38] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:50][39] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:51][39] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:51][40] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:52][40] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:52][41] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:52][41] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:53][42] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:53][42] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:54][43] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:54][43] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:54][44] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:55][44] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:35:55][45] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:35:56][45] Processed:  App\Mail\VerifyEmail
+[2023-07-02 00:41:46][46] Processing: App\Jobs\VerifyEmail
+[2023-07-02 00:41:46][46] Processed:  App\Jobs\VerifyEmail
+[2023-07-02 00:41:46][47] Processing: App\Mail\VerifyEmail
+[2023-07-02 00:41:47][47] Processed:  App\Mail\VerifyEmail
+[2023-07-02 08:43:29][48] Processing: App\Jobs\AlertEmployee
+[2023-07-02 08:43:29][48] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 08:43:29][49] Processing: App\Mail\NotifyEmployee
+[2023-07-02 08:43:30][49] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 08:43:31][50] Processing: App\Mail\NotifyEmployee
+[2023-07-02 08:43:31][50] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 08:43:31][51] Processing: App\Mail\NotifyEmployee
+[2023-07-02 08:43:32][51] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 08:43:32][52] Processing: App\Events\NewNotification
+[2023-07-02 08:43:32][52] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:32][53] Processing: App\Events\NewNotification
+[2023-07-02 08:43:33][53] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:33][54] Processing: App\Events\NewNotification
+[2023-07-02 08:43:33][54] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:33][55] Processing: App\Events\NewNotification
+[2023-07-02 08:43:33][55] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:34][56] Processing: App\Events\NewNotification
+[2023-07-02 08:43:34][56] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:50][57] Processing: App\Events\NewNotification
+[2023-07-02 08:43:50][57] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:51][58] Processing: App\Events\NewNotification
+[2023-07-02 08:43:51][58] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:51][59] Processing: App\Events\NewNotification
+[2023-07-02 08:43:51][59] Processed:  App\Events\NewNotification
+[2023-07-02 08:43:51][60] Processing: App\Jobs\PostAccepted
+[2023-07-02 08:43:51][60] Processed:  App\Jobs\PostAccepted
+[2023-07-02 08:43:52][61] Processing: App\Mail\PostAccepted
+[2023-07-02 08:43:52][61] Processed:  App\Mail\PostAccepted
+[2023-07-02 08:44:25][62] Processing: App\Events\NewNotification
+[2023-07-02 08:44:25][62] Processed:  App\Events\NewNotification
+[2023-07-02 08:44:25][63] Processing: App\Events\NewNotification
+[2023-07-02 08:44:25][63] Processed:  App\Events\NewNotification
+[2023-07-02 08:44:25][64] Processing: App\Events\NewNotification
+[2023-07-02 08:44:26][64] Processed:  App\Events\NewNotification
+[2023-07-02 08:44:26][65] Processing: App\Jobs\PostAccepted
+[2023-07-02 08:44:26][65] Processed:  App\Jobs\PostAccepted
+[2023-07-02 08:44:26][66] Processing: App\Mail\PostAccepted
+[2023-07-02 08:44:27][66] Processed:  App\Mail\PostAccepted
+[2023-07-02 08:44:40][67] Processing: App\Events\NewNotification
+[2023-07-02 08:44:40][67] Processed:  App\Events\NewNotification
+[2023-07-02 08:44:40][68] Processing: App\Events\NewNotification
+[2023-07-02 08:44:40][68] Processed:  App\Events\NewNotification
+[2023-07-02 08:44:44][69] Processing: App\Events\NewNotification
+[2023-07-02 08:44:44][69] Processed:  App\Events\NewNotification
+[2023-07-02 08:44:44][70] Processing: App\Events\NewNotification
+[2023-07-02 08:44:44][70] Processed:  App\Events\NewNotification
+[2023-07-02 08:46:48][71] Processing: App\Events\NewNotification
+[2023-07-02 08:46:48][71] Processed:  App\Events\NewNotification
+[2023-07-02 08:46:51][72] Processing: App\Events\NewChatMessage
+[2023-07-02 08:46:51][72] Processed:  App\Events\NewChatMessage
+[2023-07-02 08:46:52][73] Processing: App\Events\NewNotification
+[2023-07-02 08:46:52][73] Processed:  App\Events\NewNotification
+[2023-07-02 08:47:05][74] Processing: App\Events\NewNotification
+[2023-07-02 08:47:05][74] Processed:  App\Events\NewNotification
+[2023-07-02 09:33:57][75] Processing: App\Mail\VerifyEmail
+[2023-07-02 09:33:58][75] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:06:41][76] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:06:42][76] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:11:19][77] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:11:20][77] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:11:36][78] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:11:37][78] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:11:57][79] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:11:57][79] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:12:46][80] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:12:47][80] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:21:29][81] Processing: App\Jobs\AlertEmployee
+[2023-07-02 10:21:29][81] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 10:21:29][82] Processing: App\Mail\NotifyEmployee
+[2023-07-02 10:21:30][82] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 10:21:30][83] Processing: App\Mail\NotifyEmployee
+[2023-07-02 10:21:31][83] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 10:21:31][84] Processing: App\Events\NewNotification
+[2023-07-02 10:21:31][84] Processed:  App\Events\NewNotification
+[2023-07-02 10:21:32][85] Processing: App\Events\NewNotification
+[2023-07-02 10:21:32][85] Processed:  App\Events\NewNotification
+[2023-07-02 10:21:32][86] Processing: App\Events\NewNotification
+[2023-07-02 10:21:32][86] Processed:  App\Events\NewNotification
+[2023-07-02 10:21:33][87] Processing: App\Events\NewNotification
+[2023-07-02 10:21:33][87] Processed:  App\Events\NewNotification
+[2023-07-02 10:35:19][88] Processing: App\Jobs\AlertEmployee
+[2023-07-02 10:35:19][88] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 10:35:20][89] Processing: App\Mail\NotifyEmployee
+[2023-07-02 10:35:20][89] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 10:35:20][90] Processing: App\Events\NewNotification
+[2023-07-02 10:35:21][90] Processed:  App\Events\NewNotification
+[2023-07-02 10:35:21][91] Processing: App\Events\NewNotification
+[2023-07-02 10:35:21][91] Processed:  App\Events\NewNotification
+[2023-07-02 10:35:21][92] Processing: App\Events\NewNotification
+[2023-07-02 10:35:21][92] Processed:  App\Events\NewNotification
+[2023-07-02 10:35:58][93] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:35:58][93] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:36:02][94] Processing: App\Mail\VerifyEmail
+[2023-07-02 10:36:02][94] Processed:  App\Mail\VerifyEmail
+[2023-07-02 10:42:02][95] Processing: App\Jobs\AlertEmployee
+[2023-07-02 10:42:02][95] Processed:  App\Jobs\AlertEmployee
+[2023-07-02 10:42:03][96] Processing: App\Mail\NotifyEmployee
+[2023-07-02 10:42:03][96] Processed:  App\Mail\NotifyEmployee
+[2023-07-02 10:42:04][97] Processing: App\Events\NewNotification
+[2023-07-02 10:42:04][97] Processed:  App\Events\NewNotification
+[2023-07-02 10:42:04][98] Processing: App\Events\NewNotification
+[2023-07-02 10:42:04][98] Processed:  App\Events\NewNotification
+[2023-07-02 10:42:05][99] Processing: App\Events\NewNotification
+[2023-07-02 10:42:05][99] Processed:  App\Events\NewNotification
+[2023-07-02 10:43:40][100] Processing: App\Events\NewNotification
+[2023-07-02 10:43:40][100] Processed:  App\Events\NewNotification
+[2023-07-02 10:43:41][101] Processing: App\Events\NewNotification
+[2023-07-02 10:43:41][101] Processed:  App\Events\NewNotification
+[2023-07-02 10:43:41][102] Processing: App\Events\NewNotification
+[2023-07-02 10:43:41][102] Processed:  App\Events\NewNotification
+[2023-07-02 10:43:41][103] Processing: App\Jobs\PostAccepted
+[2023-07-02 10:43:41][103] Processed:  App\Jobs\PostAccepted
+[2023-07-02 10:43:42][104] Processing: App\Mail\PostAccepted
+[2023-07-02 10:43:42][104] Processed:  App\Mail\PostAccepted
+[2023-07-03 08:07:22][105] Processing: App\Jobs\VerifyEmail
+[2023-07-03 08:07:22][105] Processed:  App\Jobs\VerifyEmail
+[2023-07-03 08:07:22][106] Processing: App\Mail\VerifyEmail
+[2023-07-03 08:07:23][106] Processed:  App\Mail\VerifyEmail
+[2023-07-03 08:07:52][107] Processing: App\Jobs\VerifyEmail
+[2023-07-03 08:07:52][107] Processed:  App\Jobs\VerifyEmail
+[2023-07-03 08:07:53][108] Processing: App\Mail\VerifyEmail
+[2023-07-03 08:07:53][108] Processed:  App\Mail\VerifyEmail
+[2023-07-03 20:25:11][109] Processing: App\Mail\VerifyEmail
+[2023-07-03 20:25:12][109] Processed:  App\Mail\VerifyEmail
+[2023-07-05 06:41:42][110] Processing: App\Jobs\AlertEmployee
+[2023-07-05 06:41:43][110] Processed:  App\Jobs\AlertEmployee
+[2023-07-05 06:41:43][111] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:41:44][111] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:41:44][112] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:41:45][112] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:41:45][113] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:41:46][113] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:41:46][114] Processing: App\Events\NewNotification
+[2023-07-05 06:41:46][114] Processed:  App\Events\NewNotification
+[2023-07-05 06:41:46][115] Processing: App\Events\NewNotification
+[2023-07-05 06:41:46][115] Processed:  App\Events\NewNotification
+[2023-07-05 06:41:47][116] Processing: App\Events\NewNotification
+[2023-07-05 06:41:47][116] Processed:  App\Events\NewNotification
+[2023-07-05 06:41:47][117] Processing: App\Events\NewNotification
+[2023-07-05 06:41:47][117] Processed:  App\Events\NewNotification
+[2023-07-05 06:41:48][118] Processing: App\Events\NewNotification
+[2023-07-05 06:41:48][118] Processed:  App\Events\NewNotification
+[2023-07-05 06:43:13][119] Processing: App\Jobs\AlertEmployee
+[2023-07-05 06:43:13][119] Processed:  App\Jobs\AlertEmployee
+[2023-07-05 06:43:13][120] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:43:14][120] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:43:14][121] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:43:15][121] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:43:15][122] Processing: App\Events\NewNotification
+[2023-07-05 06:43:15][122] Processed:  App\Events\NewNotification
+[2023-07-05 06:43:15][123] Processing: App\Events\NewNotification
+[2023-07-05 06:43:16][123] Processed:  App\Events\NewNotification
+[2023-07-05 06:43:16][124] Processing: App\Events\NewNotification
+[2023-07-05 06:43:16][124] Processed:  App\Events\NewNotification
+[2023-07-05 06:43:16][125] Processing: App\Events\NewNotification
+[2023-07-05 06:43:16][125] Processed:  App\Events\NewNotification
+[2023-07-05 06:43:59][126] Processing: App\Jobs\AlertEmployee
+[2023-07-05 06:43:59][126] Processed:  App\Jobs\AlertEmployee
+[2023-07-05 06:44:00][127] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:44:00][127] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:44:00][128] Processing: App\Mail\NotifyEmployee
+[2023-07-05 06:44:01][128] Processed:  App\Mail\NotifyEmployee
+[2023-07-05 06:44:01][129] Processing: App\Events\NewNotification
+[2023-07-05 06:44:01][129] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:01][130] Processing: App\Events\NewNotification
+[2023-07-05 06:44:02][130] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:02][131] Processing: App\Events\NewNotification
+[2023-07-05 06:44:02][131] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:02][132] Processing: App\Events\NewNotification
+[2023-07-05 06:44:02][132] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:45][133] Processing: App\Jobs\ClosedJob
+[2023-07-05 06:44:45][133] Processed:  App\Jobs\ClosedJob
+[2023-07-05 06:44:45][134] Processing: App\Events\NewNotification
+[2023-07-05 06:44:45][134] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:46][135] Processing: App\Events\NewNotification
+[2023-07-05 06:44:46][135] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:46][136] Processing: App\Events\NewNotification
+[2023-07-05 06:44:46][136] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:46][137] Processing: App\Events\NewNotification
+[2023-07-05 06:44:46][137] Processed:  App\Events\NewNotification
+[2023-07-05 06:44:47][138] Processing: App\Events\NewNotification
+[2023-07-05 06:44:47][138] Processed:  App\Events\NewNotification
+[2023-07-05 09:17:57][139] Processing: App\Events\NewChatMessage
+[2023-07-05 09:17:58][139] Processed:  App\Events\NewChatMessage
+[2023-07-05 11:39:31][140] Processing: App\Events\NewNotification
+[2023-07-05 11:39:31][140] Processed:  App\Events\NewNotification
+[2023-07-05 11:39:31][141] Processing: App\Events\NewNotification
+[2023-07-05 11:39:31][141] Processed:  App\Events\NewNotification
+[2023-07-05 11:39:32][142] Processing: App\Events\NewNotification
+[2023-07-05 11:39:32][142] Processed:  App\Events\NewNotification
+[2023-07-05 11:39:32][143] Processing: App\Jobs\PostAccepted
+[2023-07-05 11:39:32][143] Processed:  App\Jobs\PostAccepted
+[2023-07-05 11:39:32][144] Processing: App\Mail\PostAccepted
+[2023-07-05 11:39:33][144] Processed:  App\Mail\PostAccepted
+[2023-07-05 11:40:06][145] Processing: App\Events\NewNotification
+[2023-07-05 11:40:06][145] Processed:  App\Events\NewNotification
+[2023-07-05 11:40:07][146] Processing: App\Events\NewNotification
+[2023-07-05 11:40:07][146] Processed:  App\Events\NewNotification
+[2023-07-05 11:40:07][147] Processing: App\Events\NewNotification
+[2023-07-05 11:40:07][147] Processed:  App\Events\NewNotification
+[2023-07-05 11:40:08][148] Processing: App\Jobs\PostAccepted
+[2023-07-05 11:40:08][148] Processed:  App\Jobs\PostAccepted
+[2023-07-05 11:40:08][149] Processing: App\Mail\PostAccepted
+[2023-07-05 11:40:09][149] Processed:  App\Mail\PostAccepted
+[2023-07-05 11:40:25][150] Processing: App\Events\NewNotification
+[2023-07-05 11:40:25][150] Processed:  App\Events\NewNotification
+[2023-07-05 11:40:26][151] Processing: App\Events\NewNotification
+[2023-07-05 11:40:26][151] Processed:  App\Events\NewNotification
+[2023-07-05 11:40:26][152] Processing: App\Events\NewNotification
+[2023-07-05 11:40:26][152] Processed:  App\Events\NewNotification
+[2023-07-05 11:40:27][153] Processing: App\Jobs\PostAccepted
+[2023-07-05 11:40:27][153] Processed:  App\Jobs\PostAccepted
+[2023-07-05 11:40:27][154] Processing: App\Mail\PostAccepted
+[2023-07-05 11:40:27][154] Processed:  App\Mail\PostAccepted
+[2023-07-05 11:41:47][155] Processing: App\Events\NewNotification
+[2023-07-05 11:41:47][155] Processed:  App\Events\NewNotification
+[2023-07-05 11:41:47][156] Processing: App\Events\NewNotification
+[2023-07-05 11:41:47][156] Processed:  App\Events\NewNotification
+[2023-07-05 11:41:47][157] Processing: App\Events\NewNotification
+[2023-07-05 11:41:48][157] Processed:  App\Events\NewNotification
+[2023-07-05 11:41:48][158] Processing: App\Jobs\PostAccepted
+[2023-07-05 11:41:48][158] Processed:  App\Jobs\PostAccepted
+[2023-07-05 11:41:48][159] Processing: App\Mail\PostAccepted
+[2023-07-05 11:41:49][159] Processed:  App\Mail\PostAccepted
+[2023-07-05 11:52:06][160] Processing: App\Mail\VerifyEmail
+[2023-07-05 11:52:06][160] Processed:  App\Mail\VerifyEmail
+[2023-07-05 12:11:46][161] Processing: App\Jobs\AlertEmployee
+[2023-07-05 12:11:46][161] Processed:  App\Jobs\AlertEmployee
+[2023-07-05 12:11:46][162] Processing: App\Events\NewNotification
+[2023-07-05 12:11:46][162] Processed:  App\Events\NewNotification
+[2023-07-05 12:11:47][163] Processing: App\Events\NewNotification
+[2023-07-05 12:11:47][163] Processed:  App\Events\NewNotification
+[2023-07-06 06:57:10][164] Processing: App\Jobs\AlertEmployee
+[2023-07-06 06:57:10][164] Processed:  App\Jobs\AlertEmployee
+[2023-07-06 06:57:11][165] Processing: App\Events\NewNotification
+[2023-07-06 06:57:11][165] Processed:  App\Events\NewNotification
+[2023-07-06 06:57:11][166] Processing: App\Events\NewNotification
+[2023-07-06 06:57:11][166] Processed:  App\Events\NewNotification
+[2023-07-06 07:08:55][167] Processing: App\Events\NewNotification
+[2023-07-06 07:08:55][167] Processed:  App\Events\NewNotification
+[2023-07-06 07:08:55][168] Processing: App\Events\NewNotification
+[2023-07-06 07:08:55][168] Processed:  App\Events\NewNotification
+[2023-07-06 07:08:55][169] Processing: App\Events\NewNotification
+[2023-07-06 07:08:56][169] Processed:  App\Events\NewNotification
+[2023-07-06 07:08:56][170] Processing: App\Jobs\PostAccepted
+[2023-07-06 07:08:56][170] Processed:  App\Jobs\PostAccepted
+[2023-07-06 07:08:56][171] Processing: App\Mail\PostAccepted
+[2023-07-06 07:08:57][171] Processed:  App\Mail\PostAccepted
+[2023-07-06 07:12:04][172] Processing: App\Jobs\VerifyEmail
+[2023-07-06 07:12:04][172] Processed:  App\Jobs\VerifyEmail
+[2023-07-06 07:12:04][173] Processing: App\Mail\VerifyEmail
+[2023-07-06 07:12:05][173] Processed:  App\Mail\VerifyEmail
+[2023-07-07 10:47:14][174] Processing: App\Mail\VerifyEmail
+[2023-07-07 10:47:15][174] Processed:  App\Mail\VerifyEmail
+[2023-07-09 08:00:07][175] Processing: App\Mail\VerifyEmail
+[2023-07-09 08:00:08][175] Processed:  App\Mail\VerifyEmail
+[2023-07-10 04:33:55][176] Processing: App\Mail\VerifyEmail
+[2023-07-10 04:33:56][176] Processed:  App\Mail\VerifyEmail
+[2023-07-10 04:36:22][177] Processing: App\Mail\VerifyEmail
+[2023-07-10 04:36:23][177] Processed:  App\Mail\VerifyEmail
+[2023-07-10 23:19:38][178] Processing: App\Mail\VerifyEmail
+[2023-07-10 23:19:39][178] Processed:  App\Mail\VerifyEmail
+[2023-07-11 07:48:11][179] Processing: App\Jobs\VerifyEmail
+[2023-07-11 07:48:11][179] Processed:  App\Jobs\VerifyEmail
+[2023-07-11 07:48:11][180] Processing: App\Mail\VerifyEmail
+[2023-07-11 07:48:12][180] Processed:  App\Mail\VerifyEmail
+[2023-07-11 07:48:22][181] Processing: App\Jobs\VerifyEmail
+[2023-07-11 07:48:22][181] Processed:  App\Jobs\VerifyEmail
+[2023-07-11 07:48:23][182] Processing: App\Mail\VerifyEmail
+[2023-07-11 07:48:23][182] Processed:  App\Mail\VerifyEmail
+[2023-07-11 07:50:39][183] Processing: App\Events\NewNotification
+[2023-07-11 07:50:39][183] Processed:  App\Events\NewNotification
+[2023-07-11 07:50:39][184] Processing: App\Events\NewNotification
+[2023-07-11 07:50:39][184] Processed:  App\Events\NewNotification
+[2023-07-11 07:50:40][185] Processing: App\Events\NewNotification
+[2023-07-11 07:50:40][185] Processed:  App\Events\NewNotification
+[2023-07-11 07:50:40][186] Processing: App\Jobs\PostAccepted
+[2023-07-11 07:50:40][186] Processed:  App\Jobs\PostAccepted
+[2023-07-11 07:50:40][187] Processing: App\Mail\PostAccepted
+[2023-07-11 07:50:41][187] Processed:  App\Mail\PostAccepted
+[2023-07-11 07:51:01][188] Processing: App\Events\NewNotification
+[2023-07-11 07:51:01][188] Processed:  App\Events\NewNotification
+[2023-07-11 07:51:01][189] Processing: App\Events\NewNotification
+[2023-07-11 07:51:01][189] Processed:  App\Events\NewNotification
+[2023-07-11 07:51:02][190] Processing: App\Events\NewNotification
+[2023-07-11 07:51:02][190] Processed:  App\Events\NewNotification
+[2023-07-11 07:51:02][191] Processing: App\Jobs\PostAccepted
+[2023-07-11 07:51:02][191] Processed:  App\Jobs\PostAccepted
+[2023-07-11 07:51:02][192] Processing: App\Mail\PostAccepted
+[2023-07-11 07:51:03][192] Processed:  App\Mail\PostAccepted
+[2023-07-11 07:52:54][193] Processing: App\Events\NewNotification
+[2023-07-11 07:52:54][193] Processed:  App\Events\NewNotification
+[2023-07-11 07:52:55][194] Processing: App\Events\NewNotification
+[2023-07-11 07:52:55][194] Processed:  App\Events\NewNotification
+[2023-07-11 07:52:55][195] Processing: App\Events\NewNotification
+[2023-07-11 07:52:55][195] Processed:  App\Events\NewNotification
+[2023-07-11 07:52:55][196] Processing: App\Jobs\PostAccepted
+[2023-07-11 07:52:55][196] Processed:  App\Jobs\PostAccepted
+[2023-07-11 07:52:56][197] Processing: App\Mail\PostAccepted
+[2023-07-11 07:52:56][197] Processed:  App\Mail\PostAccepted
+[2023-07-11 07:53:42][198] Processing: App\Jobs\AlertEmployee
+[2023-07-11 07:53:42][198] Processed:  App\Jobs\AlertEmployee
+[2023-07-11 07:53:43][199] Processing: App\Mail\NotifyEmployee
+[2023-07-11 07:53:44][199] Processed:  App\Mail\NotifyEmployee
+[2023-07-11 07:53:44][200] Processing: App\Mail\NotifyEmployee
+[2023-07-11 07:53:45][200] Processed:  App\Mail\NotifyEmployee
+[2023-07-11 07:53:45][201] Processing: App\Mail\NotifyEmployee
+[2023-07-11 07:53:47][201] Processed:  App\Mail\NotifyEmployee
+[2023-07-11 07:53:47][202] Processing: App\Events\NewNotification
+[2023-07-11 07:53:47][202] Processed:  App\Events\NewNotification
+[2023-07-11 07:53:47][203] Processing: App\Events\NewNotification
+[2023-07-11 07:53:47][203] Processed:  App\Events\NewNotification
+[2023-07-11 07:53:48][204] Processing: App\Events\NewNotification
+[2023-07-11 07:53:48][204] Processed:  App\Events\NewNotification
+[2023-07-11 07:53:48][205] Processing: App\Events\NewNotification
+[2023-07-11 07:53:48][205] Processed:  App\Events\NewNotification
+[2023-07-11 07:53:49][206] Processing: App\Events\NewNotification
+[2023-07-11 07:53:49][206] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:02][207] Processing: App\Events\NewNotification
+[2023-07-11 07:54:02][207] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:02][208] Processing: App\Events\NewNotification
+[2023-07-11 07:54:03][208] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:03][209] Processing: App\Events\NewNotification
+[2023-07-11 07:54:03][209] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:03][210] Processing: App\Jobs\PostAccepted
+[2023-07-11 07:54:03][210] Processed:  App\Jobs\PostAccepted
+[2023-07-11 07:54:04][211] Processing: App\Mail\PostAccepted
+[2023-07-11 07:54:05][211] Processed:  App\Mail\PostAccepted
+[2023-07-11 07:54:15][212] Processing: App\Events\NewNotification
+[2023-07-11 07:54:15][212] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:16][213] Processing: App\Events\NewNotification
+[2023-07-11 07:54:16][213] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:16][214] Processing: App\Events\NewNotification
+[2023-07-11 07:54:16][214] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:16][215] Processing: App\Jobs\PostAccepted
+[2023-07-11 07:54:16][215] Processed:  App\Jobs\PostAccepted
+[2023-07-11 07:54:17][216] Processing: App\Mail\PostAccepted
+[2023-07-11 07:54:17][216] Processed:  App\Mail\PostAccepted
+[2023-07-11 07:54:34][217] Processing: App\Events\NewNotification
+[2023-07-11 07:54:34][217] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:34][218] Processing: App\Events\NewNotification
+[2023-07-11 07:54:34][218] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:35][219] Processing: App\Events\NewNotification
+[2023-07-11 07:54:35][219] Processed:  App\Events\NewNotification
+[2023-07-11 07:54:35][220] Processing: App\Jobs\PostAccepted
+[2023-07-11 07:54:35][220] Processed:  App\Jobs\PostAccepted
+[2023-07-11 07:54:36][221] Processing: App\Mail\PostAccepted
+[2023-07-11 07:54:36][221] Processed:  App\Mail\PostAccepted
+[2023-07-11 09:18:22][222] Processing: App\Jobs\VerifyEmail
+[2023-07-11 09:18:22][222] Processed:  App\Jobs\VerifyEmail
+[2023-07-11 09:18:22][223] Processing: App\Mail\VerifyEmail
+[2023-07-11 09:18:23][223] Processed:  App\Mail\VerifyEmail
+[2023-07-11 09:18:37][224] Processing: App\Jobs\VerifyEmail
+[2023-07-11 09:18:37][224] Processed:  App\Jobs\VerifyEmail
+[2023-07-11 09:18:37][225] Processing: App\Mail\VerifyEmail
+[2023-07-11 09:18:37][225] Processed:  App\Mail\VerifyEmail
+[2023-07-11 09:18:47][226] Processing: App\Jobs\VerifyEmail
+[2023-07-11 09:18:47][226] Processed:  App\Jobs\VerifyEmail
+[2023-07-11 09:18:48][227] Processing: App\Mail\VerifyEmail
+[2023-07-11 09:18:48][227] Processed:  App\Mail\VerifyEmail
+[2023-07-13 02:06:33][228] Processing: App\Jobs\VerifyEmail
+[2023-07-13 02:06:33][228] Processed:  App\Jobs\VerifyEmail
+[2023-07-13 02:06:33][229] Processing: App\Mail\VerifyEmail
+[2023-07-13 02:06:34][229] Processed:  App\Mail\VerifyEmail
+[2023-07-13 05:32:32][230] Processing: App\Mail\VerifyEmail
+[2023-07-13 05:32:33][230] Processed:  App\Mail\VerifyEmail
+[2023-07-13 05:32:56][231] Processing: App\Mail\VerifyEmail
+[2023-07-13 05:32:56][231] Processed:  App\Mail\VerifyEmail
+[2023-07-13 05:33:00][232] Processing: App\Mail\VerifyEmail
+[2023-07-13 05:33:00][232] Processed:  App\Mail\VerifyEmail
+[2023-07-13 05:33:07][233] Processing: App\Mail\VerifyEmail
+[2023-07-13 05:33:08][233] Processed:  App\Mail\VerifyEmail
+[2023-07-13 05:33:08][234] Processing: App\Mail\VerifyEmail
+[2023-07-13 05:33:09][234] Processed:  App\Mail\VerifyEmail
+[2023-07-13 05:33:19][235] Processing: App\Mail\VerifyEmail
+[2023-07-13 05:33:19][235] Processed:  App\Mail\VerifyEmail
+[2023-07-13 13:30:27][236] Processing: App\Events\NewNotification
+[2023-07-13 13:30:28][236] Processed:  App\Events\NewNotification
+[2023-07-13 13:31:04][237] Processing: App\Events\NewChatMessage
+[2023-07-13 13:31:04][237] Processed:  App\Events\NewChatMessage
+[2023-07-13 13:31:43][238] Processing: App\Events\NewChatMessage
+[2023-07-13 13:31:43][238] Processed:  App\Events\NewChatMessage
+[2023-07-13 13:33:28][239] Processing: App\Events\NewChatMessage
+[2023-07-13 13:33:28][239] Processed:  App\Events\NewChatMessage
+[2023-07-13 13:33:42][240] Processing: App\Events\NewNotification
+[2023-07-13 13:33:42][240] Processed:  App\Events\NewNotification
+[2023-07-13 13:33:55][241] Processing: App\Events\NewNotification
+[2023-07-13 13:33:55][241] Processed:  App\Events\NewNotification
+[2023-07-13 13:34:21][242] Processing: App\Events\NewChatMessage
+[2023-07-13 13:34:22][242] Processed:  App\Events\NewChatMessage
+[2023-07-13 13:35:30][243] Processing: App\Events\NewChatMessage
+[2023-07-13 13:35:31][243] Processed:  App\Events\NewChatMessage
+[2023-07-13 13:40:47][244] Processing: App\Events\NewChatMessage
+[2023-07-13 13:40:47][244] Processed:  App\Events\NewChatMessage
+[2023-07-13 13:41:20][245] Processing: App\Events\NewChatMessage
+[2023-07-13 13:41:20][245] Processed:  App\Events\NewChatMessage
+[2023-07-13 14:38:52][246] Processing: App\Mail\VerifyEmail
+[2023-07-13 14:38:52][246] Processed:  App\Mail\VerifyEmail
+[2023-07-13 18:24:24][247] Processing: App\Mail\VerifyEmail
+[2023-07-13 18:24:25][247] Processed:  App\Mail\VerifyEmail
+[2023-07-13 19:18:15][248] Processing: App\Jobs\VerifyEmail
+[2023-07-13 19:18:15][248] Processed:  App\Jobs\VerifyEmail
+[2023-07-13 19:18:15][249] Processing: App\Mail\VerifyEmail
+[2023-07-13 19:18:16][249] Processed:  App\Mail\VerifyEmail
+[2023-07-13 19:18:30][250] Processing: App\Jobs\VerifyEmail
+[2023-07-13 19:18:30][250] Processed:  App\Jobs\VerifyEmail
+[2023-07-13 19:18:30][251] Processing: App\Mail\VerifyEmail
+[2023-07-13 19:18:30][251] Processed:  App\Mail\VerifyEmail
+[2023-07-13 19:21:11][252] Processing: App\Events\NewNotification
+[2023-07-13 19:21:11][252] Processed:  App\Events\NewNotification
+[2023-07-13 19:21:11][253] Processing: App\Events\NewNotification
+[2023-07-13 19:21:12][253] Processed:  App\Events\NewNotification
+[2023-07-13 19:21:12][254] Processing: App\Events\NewNotification
+[2023-07-13 19:21:12][254] Processed:  App\Events\NewNotification
+[2023-07-13 19:21:12][255] Processing: App\Jobs\PostAccepted
+[2023-07-13 19:21:12][255] Processed:  App\Jobs\PostAccepted
+[2023-07-13 19:21:13][256] Processing: App\Mail\PostAccepted
+[2023-07-13 19:21:13][256] Processed:  App\Mail\PostAccepted
+[2023-07-14 02:52:18][257] Processing: App\Mail\VerifyEmail
+[2023-07-14 02:52:19][257] Processed:  App\Mail\VerifyEmail
+[2023-07-14 06:18:15][258] Processing: App\Jobs\AlertEmployee
+[2023-07-14 06:18:16][258] Processed:  App\Jobs\AlertEmployee
+[2023-07-14 06:18:16][259] Processing: App\Mail\NotifyEmployee
+[2023-07-14 06:18:17][259] Processed:  App\Mail\NotifyEmployee
+[2023-07-14 06:18:17][260] Processing: App\Mail\NotifyEmployee
+[2023-07-14 06:18:18][260] Processed:  App\Mail\NotifyEmployee
+[2023-07-14 06:18:18][261] Processing: App\Mail\NotifyEmployee
+[2023-07-14 06:18:19][261] Processed:  App\Mail\NotifyEmployee
+[2023-07-14 06:18:19][262] Processing: App\Events\NewNotification
+[2023-07-14 06:18:19][262] Processed:  App\Events\NewNotification
+[2023-07-14 06:18:19][263] Processing: App\Events\NewNotification
+[2023-07-14 06:18:19][263] Processed:  App\Events\NewNotification
+[2023-07-14 06:18:20][264] Processing: App\Events\NewNotification
+[2023-07-14 06:18:20][264] Processed:  App\Events\NewNotification
+[2023-07-14 06:18:20][265] Processing: App\Events\NewNotification
+[2023-07-14 06:18:20][265] Processed:  App\Events\NewNotification
+[2023-07-14 06:18:20][266] Processing: App\Events\NewNotification
+[2023-07-14 06:18:21][266] Processed:  App\Events\NewNotification
+[2023-07-14 06:20:20][267] Processing: App\Events\NewNotification
+[2023-07-14 06:20:20][267] Processed:  App\Events\NewNotification
+[2023-07-14 06:20:30][268] Processing: App\Events\NewChatMessage
+[2023-07-14 06:20:30][268] Processed:  App\Events\NewChatMessage
+[2023-07-14 06:20:31][269] Processing: App\Events\NewChatMessage
+[2023-07-14 06:20:31][269] Processed:  App\Events\NewChatMessage
+[2023-07-14 06:20:44][270] Processing: App\Events\NewChatMessage
+[2023-07-14 06:20:44][270] Processed:  App\Events\NewChatMessage
+[2023-07-15 13:46:54][271] Processing: App\Mail\VerifyEmail
+[2023-07-15 13:46:54][271] Processed:  App\Mail\VerifyEmail
+[2023-07-15 16:06:36][272] Processing: App\Jobs\AlertEmployee
+[2023-07-15 16:06:37][272] Processed:  App\Jobs\AlertEmployee
+[2023-07-15 16:06:37][273] Processing: App\Events\NewNotification
+[2023-07-15 16:06:37][273] Processed:  App\Events\NewNotification
+[2023-07-15 16:06:38][274] Processing: App\Events\NewNotification
+[2023-07-15 16:06:38][274] Processed:  App\Events\NewNotification
+[2023-07-15 16:08:52][275] Processing: App\Jobs\AlertEmployee
+[2023-07-15 16:08:52][275] Processed:  App\Jobs\AlertEmployee
+[2023-07-15 16:08:53][276] Processing: App\Events\NewNotification
+[2023-07-15 16:08:53][276] Processed:  App\Events\NewNotification
+[2023-07-15 16:08:53][277] Processing: App\Events\NewNotification
+[2023-07-15 16:08:53][277] Processed:  App\Events\NewNotification
+[2023-07-15 17:19:48][278] Processing: App\Jobs\AlertEmployee
+[2023-07-15 17:19:49][278] Processed:  App\Jobs\AlertEmployee
+[2023-07-15 17:19:49][279] Processing: App\Events\NewNotification
+[2023-07-15 17:19:49][279] Processed:  App\Events\NewNotification
+[2023-07-15 17:19:50][280] Processing: App\Events\NewNotification
+[2023-07-15 17:19:50][280] Processed:  App\Events\NewNotification
+[2023-07-15 17:21:51][281] Processing: App\Jobs\AlertEmployee
+[2023-07-15 17:21:52][281] Processed:  App\Jobs\AlertEmployee
+[2023-07-15 17:21:52][282] Processing: App\Events\NewNotification
+[2023-07-15 17:21:52][282] Processed:  App\Events\NewNotification
+[2023-07-15 17:21:53][283] Processing: App\Events\NewNotification
+[2023-07-15 17:21:53][283] Processed:  App\Events\NewNotification
+[2023-07-15 20:35:49][284] Processing: App\Jobs\AlertEmployee
+[2023-07-15 20:35:50][284] Processed:  App\Jobs\AlertEmployee
+[2023-07-15 20:35:50][285] Processing: App\Events\NewNotification
+[2023-07-15 20:35:50][285] Processed:  App\Events\NewNotification
+[2023-07-15 20:35:51][286] Processing: App\Events\NewNotification
+[2023-07-15 20:35:51][286] Processed:  App\Events\NewNotification
+[2023-07-15 21:32:43][287] Processing: App\Jobs\AlertEmployee
+[2023-07-15 21:32:44][287] Processed:  App\Jobs\AlertEmployee
+[2023-07-15 21:32:44][288] Processing: App\Mail\NotifyEmployee
+[2023-07-15 21:32:44][288] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-15 21:32:45][289] Processing: App\Mail\NotifyEmployee
+[2023-07-15 21:32:45][289] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-15 21:32:45][290] Processing: App\Mail\NotifyEmployee
+[2023-07-15 21:32:45][290] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-15 21:32:45][291] Processing: App\Events\NewNotification
+[2023-07-15 21:32:45][291] Processed:  App\Events\NewNotification
+[2023-07-15 21:32:46][292] Processing: App\Events\NewNotification
+[2023-07-15 21:32:46][292] Processed:  App\Events\NewNotification
+[2023-07-15 21:32:46][293] Processing: App\Events\NewNotification
+[2023-07-15 21:32:46][293] Processed:  App\Events\NewNotification
+[2023-07-15 21:32:46][294] Processing: App\Events\NewNotification
+[2023-07-15 21:32:47][294] Processed:  App\Events\NewNotification
+[2023-07-15 21:32:47][295] Processing: App\Events\NewNotification
+[2023-07-15 21:32:47][295] Processed:  App\Events\NewNotification
+[2023-07-16 02:49:35][296] Processing: App\Jobs\AlertEmployee
+[2023-07-16 02:49:36][296] Processed:  App\Jobs\AlertEmployee
+[2023-07-16 02:49:36][297] Processing: App\Mail\NotifyEmployee
+[2023-07-16 02:49:36][297] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 02:49:37][298] Processing: App\Mail\NotifyEmployee
+[2023-07-16 02:49:37][298] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 02:49:37][299] Processing: App\Mail\NotifyEmployee
+[2023-07-16 02:49:37][299] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 02:49:37][300] Processing: App\Mail\NotifyEmployee
+[2023-07-16 02:49:37][300] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 02:49:38][301] Processing: App\Events\NewNotification
+[2023-07-16 02:49:38][301] Processed:  App\Events\NewNotification
+[2023-07-16 02:49:38][302] Processing: App\Events\NewNotification
+[2023-07-16 02:49:38][302] Processed:  App\Events\NewNotification
+[2023-07-16 02:49:39][303] Processing: App\Events\NewNotification
+[2023-07-16 02:49:39][303] Processed:  App\Events\NewNotification
+[2023-07-16 02:49:39][304] Processing: App\Events\NewNotification
+[2023-07-16 02:49:39][304] Processed:  App\Events\NewNotification
+[2023-07-16 02:49:39][305] Processing: App\Events\NewNotification
+[2023-07-16 02:49:39][305] Processed:  App\Events\NewNotification
+[2023-07-16 02:49:40][306] Processing: App\Events\NewNotification
+[2023-07-16 02:49:40][306] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:06][307] Processing: App\Jobs\AlertEmployee
+[2023-07-16 08:06:07][307] Processed:  App\Jobs\AlertEmployee
+[2023-07-16 08:06:07][308] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:07][308] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:07][309] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:07][309] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:07][310] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:07][310] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:08][311] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:08][311] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:08][312] Processing: App\Events\NewNotification
+[2023-07-16 08:06:08][312] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:08][313] Processing: App\Events\NewNotification
+[2023-07-16 08:06:09][313] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:09][314] Processing: App\Events\NewNotification
+[2023-07-16 08:06:09][314] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:09][315] Processing: App\Events\NewNotification
+[2023-07-16 08:06:09][315] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:10][316] Processing: App\Events\NewNotification
+[2023-07-16 08:06:10][316] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:10][317] Processing: App\Events\NewNotification
+[2023-07-16 08:06:10][317] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:33][318] Processing: App\Jobs\AlertEmployee
+[2023-07-16 08:06:34][318] Processed:  App\Jobs\AlertEmployee
+[2023-07-16 08:06:34][319] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:34][319] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:34][320] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:34][320] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:35][321] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:35][321] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:35][322] Processing: App\Mail\NotifyEmployee
+[2023-07-16 08:06:35][322] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 08:06:35][323] Processing: App\Events\NewNotification
+[2023-07-16 08:06:35][323] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:36][324] Processing: App\Events\NewNotification
+[2023-07-16 08:06:36][324] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:36][325] Processing: App\Events\NewNotification
+[2023-07-16 08:06:36][325] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:36][326] Processing: App\Events\NewNotification
+[2023-07-16 08:06:37][326] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:37][327] Processing: App\Events\NewNotification
+[2023-07-16 08:06:37][327] Processed:  App\Events\NewNotification
+[2023-07-16 08:06:37][328] Processing: App\Events\NewNotification
+[2023-07-16 08:06:37][328] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:24][329] Processing: App\Events\NewNotification
+[2023-07-16 09:58:24][329] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:24][330] Processing: App\Events\NewNotification
+[2023-07-16 09:58:24][330] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:25][331] Processing: App\Events\NewNotification
+[2023-07-16 09:58:25][331] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:25][332] Processing: App\Jobs\PostAccepted
+[2023-07-16 09:58:25][332] Processed:  App\Jobs\PostAccepted
+[2023-07-16 09:58:25][333] Processing: App\Mail\PostAccepted
+[2023-07-16 09:58:25][333] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-16 09:58:32][334] Processing: App\Events\NewNotification
+[2023-07-16 09:58:32][334] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:33][335] Processing: App\Events\NewNotification
+[2023-07-16 09:58:33][335] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:33][336] Processing: App\Events\NewNotification
+[2023-07-16 09:58:33][336] Processed:  App\Events\NewNotification
+[2023-07-16 09:58:33][337] Processing: App\Jobs\PostAccepted
+[2023-07-16 09:58:33][337] Processed:  App\Jobs\PostAccepted
+[2023-07-16 09:58:34][338] Processing: App\Mail\PostAccepted
+[2023-07-16 09:58:34][338] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 02:45:20][339] Processing: App\Jobs\AlertEmployee
+[2023-07-17 02:45:20][339] Processed:  App\Jobs\AlertEmployee
+[2023-07-17 02:45:20][340] Processing: App\Mail\NotifyEmployee
+[2023-07-17 02:45:20][340] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 02:45:21][341] Processing: App\Events\NewNotification
+[2023-07-17 02:45:21][341] Processed:  App\Events\NewNotification
+[2023-07-17 02:45:21][342] Processing: App\Events\NewNotification
+[2023-07-17 02:45:21][342] Processed:  App\Events\NewNotification
+[2023-07-17 02:45:21][343] Processing: App\Events\NewNotification
+[2023-07-17 02:45:21][343] Processed:  App\Events\NewNotification
+[2023-07-17 17:24:55][344] Processing: App\Jobs\AlertEmployee
+[2023-07-17 17:24:56][344] Processed:  App\Jobs\AlertEmployee
+[2023-07-17 17:24:56][345] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:24:56][345] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:24:56][346] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:24:56][346] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:24:56][347] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:24:56][347] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:24:57][348] Processing: App\Events\NewNotification
+[2023-07-17 17:24:57][348] Processed:  App\Events\NewNotification
+[2023-07-17 17:24:57][349] Processing: App\Events\NewNotification
+[2023-07-17 17:24:57][349] Processed:  App\Events\NewNotification
+[2023-07-17 17:24:57][350] Processing: App\Events\NewNotification
+[2023-07-17 17:24:58][350] Processed:  App\Events\NewNotification
+[2023-07-17 17:24:58][351] Processing: App\Events\NewNotification
+[2023-07-17 17:24:58][351] Processed:  App\Events\NewNotification
+[2023-07-17 17:24:58][352] Processing: App\Events\NewNotification
+[2023-07-17 17:24:58][352] Processed:  App\Events\NewNotification
+[2023-07-17 17:29:35][353] Processing: App\Events\NewNotification
+[2023-07-17 17:29:35][353] Processed:  App\Events\NewNotification
+[2023-07-17 17:29:36][354] Processing: App\Events\NewNotification
+[2023-07-17 17:29:36][354] Processed:  App\Events\NewNotification
+[2023-07-17 17:29:36][355] Processing: App\Events\NewNotification
+[2023-07-17 17:29:36][355] Processed:  App\Events\NewNotification
+[2023-07-17 17:29:36][356] Processing: App\Jobs\PostAccepted
+[2023-07-17 17:29:37][356] Processed:  App\Jobs\PostAccepted
+[2023-07-17 17:29:37][357] Processing: App\Mail\PostAccepted
+[2023-07-17 17:29:37][357] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:30:26][358] Processing: App\Events\NewNotification
+[2023-07-17 17:30:26][358] Processed:  App\Events\NewNotification
+[2023-07-17 17:30:43][359] Processing: App\Events\NewChatMessage
+[2023-07-17 17:30:43][359] Processed:  App\Events\NewChatMessage
+[2023-07-17 17:30:46][360] Processing: App\Events\NewNotification
+[2023-07-17 17:30:46][360] Processed:  App\Events\NewNotification
+[2023-07-17 17:31:00][361] Processing: App\Events\NewChatMessage
+[2023-07-17 17:31:00][361] Processed:  App\Events\NewChatMessage
+[2023-07-17 17:31:20][362] Processing: App\Events\NewNotification
+[2023-07-17 17:31:20][362] Processed:  App\Events\NewNotification
+[2023-07-17 17:39:34][363] Processing: App\Events\NewNotification
+[2023-07-17 17:39:34][363] Processed:  App\Events\NewNotification
+[2023-07-17 17:43:13][364] Processing: App\Jobs\AlertEmployee
+[2023-07-17 17:43:13][364] Processed:  App\Jobs\AlertEmployee
+[2023-07-17 17:43:13][365] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:43:13][365] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:43:14][366] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:43:14][366] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:43:14][367] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:43:14][367] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:43:14][368] Processing: App\Events\NewNotification
+[2023-07-17 17:43:14][368] Processed:  App\Events\NewNotification
+[2023-07-17 17:43:15][369] Processing: App\Events\NewNotification
+[2023-07-17 17:43:15][369] Processed:  App\Events\NewNotification
+[2023-07-17 17:43:15][370] Processing: App\Events\NewNotification
+[2023-07-17 17:43:15][370] Processed:  App\Events\NewNotification
+[2023-07-17 17:43:16][371] Processing: App\Events\NewNotification
+[2023-07-17 17:43:16][371] Processed:  App\Events\NewNotification
+[2023-07-17 17:43:16][372] Processing: App\Events\NewNotification
+[2023-07-17 17:43:16][372] Processed:  App\Events\NewNotification
+[2023-07-17 17:43:29][373] Processing: App\Events\NewNotification
+[2023-07-17 17:43:30][373] Processed:  App\Events\NewNotification
+[2023-07-17 17:46:35][374] Processing: App\Jobs\AlertEmployee
+[2023-07-17 17:46:35][374] Processed:  App\Jobs\AlertEmployee
+[2023-07-17 17:46:35][375] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:46:36][375] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:46:36][376] Processing: App\Events\NewNotification
+[2023-07-17 17:46:36][376] Processed:  App\Events\NewNotification
+[2023-07-17 17:46:36][377] Processing: App\Events\NewNotification
+[2023-07-17 17:46:36][377] Processed:  App\Events\NewNotification
+[2023-07-17 17:46:37][378] Processing: App\Events\NewNotification
+[2023-07-17 17:46:37][378] Processed:  App\Events\NewNotification
+[2023-07-17 17:55:46][379] Processing: App\Jobs\AlertEmployee
+[2023-07-17 17:55:46][379] Processed:  App\Jobs\AlertEmployee
+[2023-07-17 17:55:47][380] Processing: App\Mail\NotifyEmployee
+[2023-07-17 17:55:47][380] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 17:55:47][381] Processing: App\Events\NewNotification
+[2023-07-17 17:55:47][381] Processed:  App\Events\NewNotification
+[2023-07-17 17:55:47][382] Processing: App\Events\NewNotification
+[2023-07-17 17:55:48][382] Processed:  App\Events\NewNotification
+[2023-07-17 17:55:48][383] Processing: App\Events\NewNotification
+[2023-07-17 17:55:48][383] Processed:  App\Events\NewNotification
+[2023-07-17 17:57:52][384] Processing: App\Events\NewNotification
+[2023-07-17 17:57:52][384] Processed:  App\Events\NewNotification
+[2023-07-17 17:57:52][385] Processing: App\Events\NewNotification
+[2023-07-17 17:57:52][385] Processed:  App\Events\NewNotification
+[2023-07-17 17:57:52][386] Processing: App\Events\NewNotification
+[2023-07-17 17:57:53][386] Processed:  App\Events\NewNotification
+[2023-07-17 17:57:53][387] Processing: App\Jobs\PostAccepted
+[2023-07-17 17:57:53][387] Processed:  App\Jobs\PostAccepted
+[2023-07-17 17:57:53][388] Processing: App\Mail\PostAccepted
+[2023-07-17 17:57:53][388] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-17 19:34:28][389] Processing: App\Jobs\JobClosed
+[2023-07-17 19:34:28][389] Processed:  App\Jobs\JobClosed
+[2023-07-17 19:34:28][390] Processing: App\Events\NewNotification
+[2023-07-17 19:34:28][390] Processed:  App\Events\NewNotification
+[2023-07-17 19:34:28][391] Processing: App\Events\NewNotification
+[2023-07-17 19:34:29][391] Processed:  App\Events\NewNotification
+[2023-07-17 19:44:38][392] Processing: App\Jobs\JobClosed
+[2023-07-17 19:44:38][392] Processed:  App\Jobs\JobClosed
+[2023-07-17 19:44:38][393] Processing: App\Events\NewNotification
+[2023-07-17 19:44:38][393] Processed:  App\Events\NewNotification
+[2023-07-17 19:44:38][394] Processing: App\Events\NewNotification
+[2023-07-17 19:44:38][394] Processed:  App\Events\NewNotification
+[2023-07-17 19:46:20][395] Processing: App\Jobs\JobClosed
+[2023-07-17 19:46:20][395] Processed:  App\Jobs\JobClosed
+[2023-07-17 19:46:20][396] Processing: App\Events\NewNotification
+[2023-07-17 19:46:20][396] Processed:  App\Events\NewNotification
+[2023-07-17 19:46:20][397] Processing: App\Events\NewNotification
+[2023-07-17 19:46:20][397] Processed:  App\Events\NewNotification
+[2023-07-17 19:49:13][398] Processing: App\Jobs\JobClosed
+[2023-07-17 19:49:13][398] Processed:  App\Jobs\JobClosed
+[2023-07-17 19:49:13][399] Processing: App\Events\NewNotification
+[2023-07-17 19:49:13][399] Processed:  App\Events\NewNotification
+[2023-07-17 19:49:14][400] Processing: App\Events\NewNotification
+[2023-07-17 19:49:14][400] Processed:  App\Events\NewNotification
+[2023-07-18 20:08:36][401] Processing: App\Jobs\AlertEmployee
+[2023-07-18 20:08:37][401] Processed:  App\Jobs\AlertEmployee
+[2023-07-18 20:08:37][402] Processing: App\Mail\NotifyEmployee
+[2023-07-18 20:08:37][402] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-18 20:08:37][403] Processing: App\Mail\NotifyEmployee
+[2023-07-18 20:08:37][403] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-18 20:08:38][404] Processing: App\Mail\NotifyEmployee
+[2023-07-18 20:08:38][404] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-18 20:08:38][405] Processing: App\Events\NewNotification
+[2023-07-18 20:08:38][405] Processed:  App\Events\NewNotification
+[2023-07-18 20:08:38][406] Processing: App\Events\NewNotification
+[2023-07-18 20:08:39][406] Processed:  App\Events\NewNotification
+[2023-07-18 20:08:39][407] Processing: App\Events\NewNotification
+[2023-07-18 20:08:39][407] Processed:  App\Events\NewNotification
+[2023-07-18 20:08:39][408] Processing: App\Events\NewNotification
+[2023-07-18 20:08:39][408] Processed:  App\Events\NewNotification
+[2023-07-18 20:08:40][409] Processing: App\Events\NewNotification
+[2023-07-18 20:08:40][409] Processed:  App\Events\NewNotification
+[2023-07-19 08:47:21][410] Processing: App\Jobs\AlertEmployee
+[2023-07-19 08:47:21][410] Processed:  App\Jobs\AlertEmployee
+[2023-07-19 08:47:21][411] Processing: App\Mail\NotifyEmployee
+[2023-07-19 08:47:21][411] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-19 08:47:22][412] Processing: App\Mail\NotifyEmployee
+[2023-07-19 08:47:22][412] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-19 08:47:22][413] Processing: App\Mail\NotifyEmployee
+[2023-07-19 08:47:22][413] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-19 08:47:22][414] Processing: App\Events\NewNotification
+[2023-07-19 08:47:23][414] Processed:  App\Events\NewNotification
+[2023-07-19 08:47:23][415] Processing: App\Events\NewNotification
+[2023-07-19 08:47:23][415] Processed:  App\Events\NewNotification
+[2023-07-19 08:47:23][416] Processing: App\Events\NewNotification
+[2023-07-19 08:47:23][416] Processed:  App\Events\NewNotification
+[2023-07-19 08:47:24][417] Processing: App\Events\NewNotification
+[2023-07-19 08:47:24][417] Processed:  App\Events\NewNotification
+[2023-07-19 08:47:24][418] Processing: App\Events\NewNotification
+[2023-07-19 08:47:24][418] Processed:  App\Events\NewNotification
+[2023-07-19 08:48:59][419] Processing: App\Events\NewNotification
+[2023-07-19 08:48:59][419] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:00][420] Processing: App\Events\NewNotification
+[2023-07-19 08:49:00][420] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:00][421] Processing: App\Events\NewNotification
+[2023-07-19 08:49:00][421] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:00][422] Processing: App\Jobs\PostAccepted
+[2023-07-19 08:49:00][422] Processed:  App\Jobs\PostAccepted
+[2023-07-19 08:49:01][423] Processing: App\Mail\PostAccepted
+[2023-07-19 08:49:01][423] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-19 08:49:37][424] Processing: App\Events\NewNotification
+[2023-07-19 08:49:37][424] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:53][425] Processing: App\Events\NewNotification
+[2023-07-19 08:49:54][425] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:54][426] Processing: App\Events\NewNotification
+[2023-07-19 08:49:54][426] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:54][427] Processing: App\Events\NewNotification
+[2023-07-19 08:49:54][427] Processed:  App\Events\NewNotification
+[2023-07-19 08:49:55][428] Processing: App\Events\NewNotification
+[2023-07-19 08:49:55][428] Processed:  App\Events\NewNotification
+[2023-07-19 08:50:38][429] Processing: App\Events\NewNotification
+[2023-07-19 08:50:38][429] Processed:  App\Events\NewNotification
+[2023-07-19 08:50:45][430] Processing: App\Events\NewNotification
+[2023-07-19 08:50:45][430] Processed:  App\Events\NewNotification
+[2023-07-19 08:50:45][431] Processing: App\Events\NewNotification
+[2023-07-19 08:50:45][431] Processed:  App\Events\NewNotification
+[2023-07-19 08:50:49][432] Processing: App\Events\NewNotification
+[2023-07-19 08:50:49][432] Processed:  App\Events\NewNotification
+[2023-07-19 08:50:49][433] Processing: App\Events\NewNotification
+[2023-07-19 08:50:49][433] Processed:  App\Events\NewNotification
+[2023-07-19 08:55:14][434] Processing: App\Events\NewNotification
+[2023-07-19 08:55:14][434] Processed:  App\Events\NewNotification
+[2023-07-19 08:55:15][435] Processing: App\Events\NewNotification
+[2023-07-19 08:55:15][435] Processed:  App\Events\NewNotification
+[2023-07-19 08:55:15][436] Processing: App\Events\NewNotification
+[2023-07-19 08:55:15][436] Processed:  App\Events\NewNotification
+[2023-07-19 08:55:16][437] Processing: App\Jobs\PostAccepted
+[2023-07-19 08:55:16][437] Processed:  App\Jobs\PostAccepted
+[2023-07-19 08:55:16][438] Processing: App\Mail\PostAccepted
+[2023-07-19 08:55:16][438] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-19 08:56:22][439] Processing: App\Events\NewNotification
+[2023-07-19 08:56:22][439] Processed:  App\Events\NewNotification
+[2023-07-21 03:30:15][1] Processing: App\Jobs\AlertEmployee
+[2023-07-21 03:30:15][1] Processed:  App\Jobs\AlertEmployee
+[2023-07-21 03:30:15][2] Processing: App\Events\NewNotification
+[2023-07-21 03:30:15][2] Processed:  App\Events\NewNotification
+[2023-07-21 03:30:16][3] Processing: App\Events\NewNotification
+[2023-07-21 03:30:16][3] Processed:  App\Events\NewNotification
+[2023-07-21 03:59:31][4] Processing: App\Events\NewNotification
+[2023-07-21 03:59:31][4] Processed:  App\Events\NewNotification
+[2023-07-21 04:00:04][5] Processing: App\Events\NewChatMessage
+[2023-07-21 04:00:04][5] Processed:  App\Events\NewChatMessage
+[2023-07-21 07:25:53][6] Processing: App\Events\NewNotification
+[2023-07-21 07:25:54][6] Processed:  App\Events\NewNotification
+[2023-07-21 11:46:03][7] Processing: App\Jobs\AlertEmployee
+[2023-07-21 11:46:03][7] Processed:  App\Jobs\AlertEmployee
+[2023-07-21 11:46:03][8] Processing: App\Events\NewNotification
+[2023-07-21 11:46:03][8] Processed:  App\Events\NewNotification
+[2023-07-21 11:46:04][9] Processing: App\Events\NewNotification
+[2023-07-21 11:46:04][9] Processed:  App\Events\NewNotification
+[2023-07-21 11:47:16][10] Processing: App\Jobs\AlertEmployee
+[2023-07-21 11:47:16][10] Processed:  App\Jobs\AlertEmployee
+[2023-07-21 11:47:17][11] Processing: App\Mail\NotifyEmployee
+[2023-07-21 11:47:17][11] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-21 11:47:17][12] Processing: App\Events\NewNotification
+[2023-07-21 11:47:17][12] Processed:  App\Events\NewNotification
+[2023-07-21 11:47:17][13] Processing: App\Events\NewNotification
+[2023-07-21 11:47:18][13] Processed:  App\Events\NewNotification
+[2023-07-21 11:47:18][14] Processing: App\Events\NewNotification
+[2023-07-21 11:47:18][14] Processed:  App\Events\NewNotification
+[2023-07-22 01:57:52][15] Processing: App\Events\NewNotification
+[2023-07-22 01:57:52][15] Processed:  App\Events\NewNotification
+[2023-07-22 01:57:52][16] Processing: App\Events\NewNotification
+[2023-07-22 01:57:52][16] Processed:  App\Events\NewNotification
+[2023-07-22 01:57:53][17] Processing: App\Events\NewNotification
+[2023-07-22 01:57:53][17] Processed:  App\Events\NewNotification
+[2023-07-22 01:57:53][18] Processing: App\Jobs\PostAccepted
+[2023-07-22 01:57:53][18] Processed:  App\Jobs\PostAccepted
+[2023-07-22 01:57:53][19] Processing: App\Mail\PostAccepted
+[2023-07-22 01:57:53][19] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-22 02:06:13][20] Processing: App\Jobs\BalanceCreated
+[2023-07-22 02:06:13][20] Processed:  App\Jobs\BalanceCreated
+[2023-07-22 02:06:13][21] Processing: App\Events\NewNotification
+[2023-07-22 02:06:13][21] Processed:  App\Events\NewNotification
+[2023-07-22 02:06:14][22] Processing: App\Events\NewNotification
+[2023-07-22 02:06:14][22] Processed:  App\Events\NewNotification
+[2023-07-22 02:06:14][23] Processing: App\Events\NewNotification
+[2023-07-22 02:06:14][23] Processed:  App\Events\NewNotification
+[2023-07-22 02:06:14][24] Processing: App\Mail\BalanceCreated
+[2023-07-22 02:06:14][24] Failed:     App\Mail\BalanceCreated
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/008d0ca6811657ffc58e343fbc0ddad2e9824e56.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-23 16:44:28][25] Processing: App\Jobs\VerifyEmail
+[2023-07-23 16:44:28][25] Processed:  App\Jobs\VerifyEmail
+[2023-07-23 16:44:28][26] Processing: App\Mail\VerifyEmail
+[2023-07-23 16:44:28][26] Failed:     App\Mail\VerifyEmail
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/708961e716afd0f3304fa867cb2127d77c0f2c7d.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-23 16:45:56][27] Processing: App\Jobs\VerifyEmail
+[2023-07-23 16:45:56][27] Processed:  App\Jobs\VerifyEmail
+[2023-07-23 16:45:57][28] Processing: App\Mail\VerifyEmail
+[2023-07-23 16:45:57][28] Failed:     App\Mail\VerifyEmail
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/708961e716afd0f3304fa867cb2127d77c0f2c7d.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-24 10:44:26][29] Processing: App\Jobs\AlertEmployee
+[2023-07-24 10:44:26][29] Processed:  App\Jobs\AlertEmployee
+[2023-07-24 10:44:27][30] Processing: App\Events\NewNotification
+[2023-07-24 10:44:27][30] Processed:  App\Events\NewNotification
+[2023-07-24 10:44:27][31] Processing: App\Events\NewNotification
+[2023-07-24 10:44:27][31] Processed:  App\Events\NewNotification
+[2023-07-24 19:17:36][32] Processing: App\Jobs\VerifyEmail
+[2023-07-24 19:17:36][32] Processed:  App\Jobs\VerifyEmail
+[2023-07-24 19:17:36][33] Processing: App\Mail\VerifyEmail
+[2023-07-24 19:17:36][33] Failed:     App\Mail\VerifyEmail
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/708961e716afd0f3304fa867cb2127d77c0f2c7d.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-25 07:27:11][34] Processing: App\Jobs\AlertEmployee
+[2023-07-25 07:27:12][34] Processed:  App\Jobs\AlertEmployee
+[2023-07-25 07:27:12][35] Processing: App\Mail\NotifyEmployee
+[2023-07-25 07:27:12][35] Failed:     App\Mail\NotifyEmployee
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/445e6efb3f1ce604e6ea45057b3ddcfc2115e640.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-25 07:27:12][36] Processing: App\Events\NewNotification
+[2023-07-25 07:27:12][36] Processed:  App\Events\NewNotification
+[2023-07-25 07:27:13][37] Processing: App\Events\NewNotification
+[2023-07-25 07:27:13][37] Processed:  App\Events\NewNotification
+[2023-07-25 07:27:13][38] Processing: App\Events\NewNotification
+[2023-07-25 07:27:13][38] Processed:  App\Events\NewNotification
+[2023-07-25 07:27:46][39] Processing: App\Events\NewNotification
+[2023-07-25 07:27:46][39] Processed:  App\Events\NewNotification
+[2023-07-25 07:27:47][40] Processing: App\Events\NewNotification
+[2023-07-25 07:27:47][40] Processed:  App\Events\NewNotification
+[2023-07-25 07:27:47][41] Processing: App\Events\NewNotification
+[2023-07-25 07:27:47][41] Processed:  App\Events\NewNotification
+[2023-07-25 07:27:47][42] Processing: App\Jobs\PostAccepted
+[2023-07-25 07:27:47][42] Processed:  App\Jobs\PostAccepted
+[2023-07-25 07:27:48][43] Processing: App\Mail\PostAccepted
+[2023-07-25 07:27:48][43] Failed:     App\Mail\PostAccepted
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/9ae58fe97360154c6e60a8da85828345f9c63576.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-26 03:53:45][44] Processing: App\Jobs\VerifyEmail
+[2023-07-26 03:53:45][44] Processed:  App\Jobs\VerifyEmail
+[2023-07-26 03:53:45][45] Processing: App\Mail\VerifyEmail
+[2023-07-26 03:53:45][45] Failed:     App\Mail\VerifyEmail
+
+   UnexpectedValueException 
+
+  The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/var/www/html/exptradies/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
+The exception occurred while attempting to log: file_put_contents(/var/www/html/exptradies/storage/framework/views/708961e716afd0f3304fa867cb2127d77c0f2c7d.php): failed to open stream: Permission denied
+Context: {"exception":{}}
+Context: {"exception":{}}
+Context: {"exception":{}}
+
+  at vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:146
+    142|             restore_error_handler();
+    143|             if (!is_resource($stream)) {
+    144|                 $this->stream = null;
+    145| 
+  > 146|                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    147|             }
+    148|             stream_set_chunk_size($stream, $this->streamChunkSize);
+    149|             $this->stream = $stream;
+    150|         }
+
+      [2m+7 vendor frames [22m
+  8   app/Exceptions/Handler.php:39
+      Illuminate\Foundation\Exceptions\Handler::report()
+
+      [2m+2 vendor frames [22m
+  11  [internal]:0
+      Illuminate\Foundation\Bootstrap\HandleExceptions::handleException()
+[2023-07-26 04:13:13][46] Processing: App\Jobs\AlertEmployee
+[2023-07-26 04:13:13][46] Processed:  App\Jobs\AlertEmployee
+[2023-07-26 04:13:14][47] Processing: App\Events\NewNotification
+[2023-07-26 04:13:14][47] Processed:  App\Events\NewNotification
+[2023-07-26 04:13:14][48] Processing: App\Events\NewNotification
+[2023-07-26 04:13:14][48] Processed:  App\Events\NewNotification

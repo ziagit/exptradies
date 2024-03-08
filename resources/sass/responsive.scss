@@ -1,0 +1,199 @@
+@media only screen and (max-width: 576px) {
+    .home-content {
+        .section0 {
+            margin-bottom: 200px;
+
+            .content {
+                width: 100% !important;
+                max-width: 350px;
+                margin: auto !important;
+                padding-top: 70px !important;
+
+                h1 {
+                    font-size: 42px !important;
+                }
+
+                p {
+                    font-size: 16px !important;
+                }
+
+                .sub-title {
+                    color: #6e7272;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+
+                .actions {
+                    width: 100%;
+                    text-align: center !important;
+
+                    .btn-primary {
+                        margin: auto !important;
+                    }
+                }
+            }
+        }
+
+        .section2 {
+            .row {
+                padding: 5px;
+            }
+        }
+    }
+
+    .search-service {
+        .btn {
+            margin: auto !important;
+        }
+    }
+
+    .services-page {
+        .img-container {
+            h1 {
+                font-size: 35px !important;
+            }
+
+            img {
+                display: none !important;
+            }
+        }
+    }
+    .business-page {
+        .badge-secondary {
+            font-size: 52% !important;
+        }
+        .small {
+            font-size: 11px !important;
+        }
+    }
+    .invoice {
+        .in-phone-d {
+            flex-direction: column !important;
+            :nth-child(2) {
+                margin: 20px 0 !important;
+            }
+        }
+        img {
+            width: 30px !important;
+        }
+        div,
+        p {
+            font-size: 14px !important;
+        }
+        h2 {
+            font-size: 22px !important;
+        }
+    }
+    .in-phone-no-padding {
+        padding: 0 !important;
+    }
+    .in-phone-no-margin {
+        margin: 0 !important;
+    }
+    .w-50 {
+        width: 100% !important;
+    }
+    .hide-in-phone {
+        display: none !important;
+    }
+    .table-in-phone {
+        th {
+            font-size: 12px !important;
+        }
+    }
+    .in-phone-d-none {
+        display: none !important;
+    }
+    .in-phone-d {
+        display: block !important;
+    }
+    .list-group-item {
+        border: none !important;
+    }
+    .in-phone-tabs {
+        ul {
+            li {
+                font-size: 11px !important;
+                a {
+                    font-size: 11px !important;
+                }
+            }
+        }
+    }
+    .help-center {
+        .section0 {
+            margin-top: 50px !important;
+            margin-bottom: 50px !important;
+            flex-direction: column !important;
+            .text {
+                order: 1 !important;
+            }
+            img {
+                order: 0 !important;
+            }
+        }
+    }
+    .about {
+        .img-container {
+            padding: 60px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .in-phone-reports {
+        min-width: 669px !important;
+        overflow-x: scroll !important;
+    }
+
+    .home-content {
+        .section0 {
+            .content {
+                justify-content: center !important;
+                h1 {
+                    font-size: 53px !important;
+                }
+            }
+        }
+        .section1 {
+            margin-bottom: 200px !important;
+            .in-phone {
+                flex-direction: column !important;
+                justify-content: center !important;
+                align-items: center !important;
+
+                .card {
+                    max-width: none !important;
+                    width: 100% !important;
+                    margin-bottom: 30px !important;
+                }
+            }
+        }
+
+        .section3 {
+            margin-bottom: 0 !important;
+        }
+
+        .section4 {
+            margin-bottom: 100px !important;
+        }
+
+        .x1 {
+            padding-right: 0 !important;
+        }
+
+        .x2 {
+            padding-left: 0 !important;
+        }
+    }
+    .in-phone-img-none {
+        display: none !important;
+    }
+    .in-phone-mb {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+}

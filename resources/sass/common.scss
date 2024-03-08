@@ -1,0 +1,121 @@
+.b-sidebar-header {
+    background: #fff !important;
+}
+.multiselect__option--highlight,
+.multiselect__tag {
+    background: #007bff !important;
+}
+#live-support {
+    .popover-body {
+        height: 100% !important;
+    }
+}
+.popover-body {
+    height: 100% !important;
+}
+.b-sidebar-body {
+    background: #fff !important;
+}
+.bg-dark {
+    .nav-link {
+        color: blue !important;
+    }
+}
+
+.line {
+    border-bottom: solid 1px #ddd;
+}
+.help-center {
+    .btn-light {
+        background: unset !important;
+        border: unset !important;
+    }
+    .collapse {
+        padding: 0 12px !important;
+    }
+}
+.vue-phone-number-input {
+    width: 100% !important;
+}
+
+.card {
+    background: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    .card-title {
+        margin-bottom: 10px !important;
+        font-weight: 600 !important;
+    }
+}
+.card:hover {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.b-rating {
+    background-color: transparent !important;
+}
+.auth-page {
+    background: #f9f8f7;
+    overflow-y: auto;
+    .container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: calc(100vh - 100px);
+        > div:first-child {
+            min-width: 300px !important;
+        }
+    }
+    input {
+        min-height: 48px !important;
+    }
+}
+.help-center .posts-page {
+    img {
+        border-radius: 10px !important;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        text-align: center;
+        box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%),
+            0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    }
+}
+.list-group-item-action {
+    border: none !important;
+}
+
+.tab {
+    width: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+    color: #000 !important;
+}
+h1 {
+    font-weight: 700 !important;
+}
