@@ -130,13 +130,11 @@ export default {
           this.steps = res;
         })
     },
-
  
     viewImage(id, img){
       this.imageToView = img.name;
       this.$bvModal.show('modal-image');
     },
- 
   },
 };
 </script>

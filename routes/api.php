@@ -88,7 +88,6 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::resource('galery', 'GaleryController');
     Route::resource('reviews','ReviewController');
     Route::get('experiences/{id}','PostController@galery');
-
   });
 
   Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'admin'], function () {
