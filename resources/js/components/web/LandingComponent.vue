@@ -36,7 +36,7 @@
                 </b-card-text>
               </b-card>
 
-              <b-card style="max-width: 21rem;" class="text-left" title="Breaking" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card style="max-width: 21rem;" class="text-left" title="Breaking" img-src="/images/home/girl-bricklaying.jpeg" img-alt="Image" img-top>
                 <b-card-text>
                   This card has supporting text below as a natural lead-in to additional content.
                 </b-card-text>
