@@ -38,15 +38,17 @@ class SuboptionController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            "title" => "required",
+            "title" => "required_without:custom",
+            "custom" => "required_without:title",
         ]);
-        $step = new Suboption();
-        $step->title = $request->title;
-        $step->details = $request->details;
-        $step->value = null;
-        $step->option_id = $request->option_id;
-        $step->save();
-        return response()->json($step, 200);
+        $option = new Suboption();
+        $option->title = $request->title;
+        $option->custom = $request->custom;
+        $option->details = $request->details;
+        $option->value = null;
+        $option->option_id = $request->option_id;
+        $option->save();
+        return response()->json($option, 200);
     }
 
     /**
@@ -82,13 +84,15 @@ class SuboptionController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            "title" => "required",
+            "title" => "required_without:custom",
+            "custom" => "required_without:title",
         ]);
         $step = Suboption::find($id);
         $step->title = $request->title;
+        $step->custom = $request->custom;
         $step->details = $request->details;
         $step->value = null;
-        $step->step_id = $request->step_id;
+        $step->option_id = $request->option_id;
         $step->update();
         return response()->json($step, 200);
     }

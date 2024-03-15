@@ -51,20 +51,23 @@
         </div>
         <div class="col-8 col-sm-12 col-md-8 bg-dark p-4">
           <div>
-            <a href="#">Who We Are?</a>
-            <h2>Skilled works recruiting agency</h2>
+            <a href="#">Who we are?</a>
+            <h2>Exptradies job marketplace</h2>
           </div>
           <div>
             <b-tabs content-class="mt-3">
-              <b-tab title="Our Mission" ><p>
-            Discover a seamless and hassle-free way to get your work done with Exptradies. Our innovative online platform directly connects you to qualified local businesses, commonly known as tradies, across various service categories. Say goodbye to the time-consuming process of searching for the right professional and let Exptradies handle it for you.
-                
+              <b-tab title="Our mission" ><p>
+                Our mission is to create a seamless job platform empowering homeowners to post jobs
+effortlessly and businesses to find ideal employment. Committed to excellence, we ensure
+reliability, trust, and mutual benefit in every connection, impacting lives positively and fostering
+community growth.
               </p></b-tab>
-              <b-tab title="Our Vision"><p>
-            Discover a seamless and hassle-free way to get your work done with Exptradies. Our innovative online platform directly connects you to qualified local businesses, commonly known as tradies, across various service categories. Say goodbye to the time-consuming process of searching for the right professional and let Exptradies handle it for you.
-                
+              <b-tab title="Our vision"><p>
+                Our vision is to make tradesmen and jobs easily accessible. With a simple click, access a diverse array of
+tradesmen for any project, seamlessly connecting needs with expertise and job opportunities, ensuring
+convenience in your life.
               </p></b-tab>
-              <b-tab title="Core Values" active><p>
+              <b-tab title="Core values" active><p>
             Discover a seamless and hassle-free way to get your work done with Exptradies. Our innovative online platform directly connects you to qualified local businesses, commonly known as tradies, across various service categories. Say goodbye to the time-consuming process of searching for the right professional and let Exptradies handle it for you.
               </p></b-tab>
             </b-tabs>

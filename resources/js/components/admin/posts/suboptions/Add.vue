@@ -5,7 +5,7 @@
         <b-form-select v-model="form.custom" :options="options"></b-form-select>
       </b-form-group>
 
-      <b-form-group v-else>
+      <b-form-group >
         <b-form-input id="input-1" v-model="form.title" placeholder="Title" required></b-form-input>
       </b-form-group>
       <b-form-group>
@@ -35,7 +35,6 @@ import axios from "axios";
 export default {
   data() {
     return {
-      steps: null,
       checkBoxStatus:'unchecked',
       options: [
           { value: null, text: 'Please select an option' },
@@ -62,9 +61,7 @@ export default {
       axios
         .post("admin/suboptions", this.form)
         .then((res) => {
-          console.log("Saved");
           this.$emit('close-dialog')
-
         })
         .catch((err) => console.log(err));
     },

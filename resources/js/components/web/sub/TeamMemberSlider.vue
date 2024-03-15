@@ -7,44 +7,59 @@
     <div id="slides">
       <div id="overflow">
         <div class="inner">
-
-          <div class="slide slide_1">
+          <div class="slide slide_1" v-if="list1.length>0">
             <div class="slide-content">
-              <TeamMembers></TeamMembers>
+              <TeamMembers :businesses="list1"></TeamMembers>
             </div>
           </div>
 
-          <div class="slide slide_2">
+          <div class="slide slide_2" v-if="list2.length>0">
             <div class="slide-content">
-              <TeamMembers></TeamMembers>
+              <TeamMembers :businesses="list2"></TeamMembers>
             </div>
           </div>
 
-          <div class="slide slide_3">
+          <div class="slide slide_3" v-if="list2.length>0">
             <div class="slide-content">
-              <TeamMembers></TeamMembers>
+              <TeamMembers :businesses="list3"></TeamMembers>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
 
     <div id="bullets">
-      <label for="slide9"></label>
-      <label for="slide10"></label>
-      <label for="slide11"></label>
+      <label for="slide9" v-if="list1.length>0"></label>
+      <label for="slide10" v-if="list2.length>0"></label>
+      <label for="slide11" v-if="list3.length>0"></label>
     </div>
   </div>
 </template>
 <script>
 import TeamMembers from './TeamMembers.vue';
+import axios from 'axios';
 export default {
     name: "Review",
     data() {
-        return {};
+        return {
+          list1:[],
+          list2:[],
+          list3:[],
+        };
     },
-    components: { TeamMembers }
+    components: { TeamMembers },
+    created(){
+      this.get();
+    },
+    methods:{
+      get(){
+        axios.get("business-page/latest").then(res=>{
+          this.list1 = res.data.slice(0, 3);
+          this.list2 = res.data.slice(3, 6);
+          this.list3 = res.data.slice(6,9);
+        })
+      }
+    }
 };
 </script>
 

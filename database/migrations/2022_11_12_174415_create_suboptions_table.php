@@ -16,6 +16,7 @@ class CreateSuboptionsTable extends Migration
         Schema::create('suboptions', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('custom')->nullable();
             $table->text('details')->nullable();
             $table->double('value')->nullable();
             $table->unsignedBigInteger('option_id');

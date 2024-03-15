@@ -11,17 +11,17 @@
         <div class="inner">
           <div class="slide slide_1">
             <div class="slide-content">
-              <ReviewMessage></ReviewMessage>
+              <ReviewMessage :reviews="list1"></ReviewMessage>
             </div>
           </div>
           <div class="slide slide_2">
             <div class="slide-content">
-              <ReviewMessage></ReviewMessage>
+              <ReviewMessage :reviews="list2"></ReviewMessage>
             </div>
           </div>
           <div class="slide slide_3">
             <div class="slide-content">
-              <ReviewMessage></ReviewMessage>
+              <ReviewMessage :reviews="list3"></ReviewMessage>
             </div>
           </div>
         </div>
@@ -41,7 +41,54 @@ import ReviewMessage from './ReviewMessage.vue';
 export default {
     name: "Review",
     data() {
-        return {};
+        return {
+          list1:[
+            {
+              name: "John D.",
+              stars: 4,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+            {
+              name: "Aman A.",
+              stars: 5,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+            {
+              name: "Khan",
+              stars: 5,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+          ],
+          list2:[
+            {
+              name: "Alex D.",
+              stars: 5,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+            {
+              name: "Json A.",
+              stars: 5,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+            {
+              name: "Khan B.",
+              stars: 5,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+          ],
+          list3:[
+            {
+              name: "M. Zue",
+              stars: 4,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+            {
+              name: "Aman X.",
+              stars: 3,
+              message:"My dream home was brought to life by a team of skilled and trustworthy professionals from exptradies. Their expertise, integrity, and timeliness undoubtedly make them an excellent and highly-recommended choice for any construction project."
+            },
+          ],
+        };
     },
     components: { ReviewMessage }
 };

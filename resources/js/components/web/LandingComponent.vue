@@ -7,13 +7,13 @@
           <div>
             <h4 class="mb-0 fw-900">Connect With</h4>
             <h1>Local experts</h1>
-            <p class="mb-4">
-              Post your work and find reliable pros quickly and easily.
+            <p class="mb-4" id="post-a-job">
+              Post your work, and find reliable professionals quickly and easily.
             </p>
           </div>
           <div>
             <SearchService ref="searchBox"/>
-            Trending keywords: Tiling Cleaning painting Renovation flooring bricklaying handyman fitting
+            Trending keywords: Tiling Cleaning Painting Renovation Flooring Bricklaying Handyman Fitting
           </div>
         </div>
       </div>
@@ -23,68 +23,24 @@
           <div class="text-center">
             <h2>Trending Jobs</h2>
             <p>
-              Discover your dream job tailored to your skills and location! Showcase your expertise and connect with trustworthy clients through our platform. Plus, highlight all your skills—there's room for everything, let your unique abilities shine and attract the perfect opportunities to find you.
+              Discover your dream job tailored to your skills and location! Showcase your expertise and connect with
+trustworthy clients through our platform. Plus, highlight all your skills—there's room for everything, let
+your unique abilities shine and attract the perfect opportunities to find you.
             </p>
           </div>
-        <div class="row">
-          <div class="col col-sm-12 col-md-8 col-lg-8">
-            <b-card-group deck>
-              <b-card style="max-width: 21rem;" class="text-left" title="Tiling" img-src="/images/home/tiling-wall.png" img-alt="Image" img-top>
-                <b-card-text>
-                  This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.
-                </b-card-text>
-              </b-card>
-
-              <b-card style="max-width: 21rem;" class="text-left" title="Breaking" img-src="/images/home/girl-bricklaying.jpeg" img-alt="Image" img-top>
-                <b-card-text>
-                  This card has supporting text below as a natural lead-in to additional content.
-                </b-card-text>
-              </b-card>
-            </b-card-group>
-            <br>
-            <b-card-group deck>
-              <b-card  style="max-width: 21rem;" class="text-left" title="HandIman" img-src="/images/home/cleaning-floor-man.png" img-alt="Image" img-top>
-                <b-card-text>
-                  This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This content is a little bit longer.
-                </b-card-text>
-              </b-card>
-
-              <b-card  style="max-width: 21rem;" class="text-left" title="Cleaning" img-src="/images/home/cleaning-floor.png" img-alt="Image" img-top>
-                <b-card-text>
-                  This card has supporting text below as a natural lead-in to additional content.
-                </b-card-text>
-              </b-card>
-            </b-card-group>
-          </div>
-
-          <div class="col col-sm-12 col-md-4 col-lg-4 text-container">
-            <div class="mb-5 see-job">
-              <strong>See more jobs</strong>
-            </div>
-
-            <div class="p-3 text-center">
-              <p>
-                Find the perfect business solution to meet your needs and ensure a timely and professional completion of your work. Brows through carefully our selected business and make the right choice now.
-              </p>
-              <div class="post-job">
-               <strong>Post a Job</strong>
-              </div>
-            </div>
-          </div>
-        </div>
+        <LatestPosts></LatestPosts>
       </div>
     </div>
     <div class="section2">
       <div class="container">
         <div class="text-center">
-          <h2>Top workers</h2>
-            <p>Select workers and hire them to do your job.</p>
+          <h2>Top Businesses</h2>
+            <p>Browse our businesses and select the relevant one for your project, ensuring it's accomplished beyond
+your expectations.</p>
         </div>
         <TeamMemberSlider></TeamMemberSlider>
         <div class="text-right">
-          <b-button  variant="link">Browse all workers</b-button>
+          <b-button variant="link" @click="$router.push('/businesses')">Browse all workers</b-button>
         </div>
       </div>
     </div>
@@ -98,26 +54,28 @@
         <div class="dark-bg">
           <div class="container">
             <b-card-group deck class="card-deck mt-5 in-phone">
-            <b-card title="Create An Account" img-src="/images/home/padlock.png" >
+            <b-card title="Craft your profile" img-src="/images/home/padlock.png" >
               <b-card-text>
-                Create a standout profile, record your skills and working areas to get noticed, and let us bring the perfect project to your doorstep.
-                Craft a remarkable profile, showcase your skills and expertise, and watch as we bring the perfect projects right to you.
+                Craft a remarkable profile, showcase your skills and expertise, and watch as we bring the perfect
+projects right to you.
               </b-card-text>
               <div class="badge">
                 <span>1</span>
               </div>
             </b-card>
-            <b-card title="Get Notified" img-src="/images/home/headhunting.png" >
+            <b-card title="Get Personalized Job Alerts" img-src="/images/home/headhunting.png" >
               <b-card-text>
-                Get a head start with tailor-made job alerts that match your skills and work area preferences. Be the trendsetter, always in the loop for exhilarating opportunities.
+                Get a head start with tailor-made job alerts that match your skills and work area preferences. Be the
+trendsetter, always in the loop for exhilarating opportunities.
               </b-card-text>
               <div class="badge">
                 <span>2</span>
               </div>
             </b-card>
-            <b-card title="Accept And Get Done" img-src="/images/home/trophy.png" >
+            <b-card title="Secure Your Dream Job" img-src="/images/home/trophy.png" >
               <b-card-text>
-                Take on job leads you like, connect with clients to get hired and make schedule to get the job done.
+                Take on job leads you like, connect with clients to get hired and make schedule to get the job
+done.
               </b-card-text>
               <div class="badge">
                 <span>3</span>
@@ -127,15 +85,14 @@
           </div>
         </div>
 
-        <div style="height: 100px;"></div>
+        <div style="height: 20px;"></div>
 
       <div class="container">
         <div class="text-center">
-          <h2>How Exptradies Works?</h2>
           <p>For Homeowners</p>
         </div>
         <b-card-group deck class="card-deck mt-5 in-phone">
-            <b-card title="post Work" img-src="/images/home/permanent-job.png" >
+            <b-card title="Post Inquiry" img-src="/images/home/permanent-job.png" >
               <b-card-text>
                 Post your job and let Exptradies instantly find reliable pros tailored to your project needs.
               </b-card-text>
@@ -143,7 +100,7 @@
                 <span>1</span>
               </div>
             </b-card>
-            <b-card title="Compare Quotes " img-src="/images/home/compare.png" >
+            <b-card title="Compare quotes" img-src="/images/home/compare.png" >
               <b-card-text>
                 Explore profiles, reviews, and converse to select the best talent for your project.
               </b-card-text>
@@ -151,7 +108,7 @@
                 <span>2</span>
               </div>
             </b-card>
-            <b-card title="Hire Pros" img-src="/images/home/lawyer.png" >
+            <b-card title="Hire Business" img-src="/images/home/lawyer.png" >
               <b-card-text>
                 Hire top-notch expert and let the work done with ease.
               </b-card-text>
@@ -232,6 +189,7 @@ import SearchService from "./sub/SearchServiceHome.vue";
 import CitySlider from "./sub/CitySlider.vue";
 import ReviewSlider from "./sub/ReviewSlider.vue";
 import TeamMemberSlider from "./sub/TeamMemberSlider.vue";
+const LatestPosts = ()=>import('./sub/LatestPosts.vue');
 export default {
   name: "HomeContent",
   components: {
@@ -240,7 +198,7 @@ export default {
     SearchService,
     CitySlider,
     ReviewSlider,
-    TeamMemberSlider
+    TeamMemberSlider,LatestPosts
 },
   data: () => ({
     slide: 0,
@@ -250,9 +208,9 @@ export default {
   methods:{
     post(){
       this.$refs.searchBox.refocus()
-    }
+    },
+   
   }
-
 };
 </script>
 
@@ -295,39 +253,7 @@ export default {
   }
   .section1{
     margin: 30px 0;
-    .text-container{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      .see-job{
-        padding: 20px;
-        border: solid 1px #ddd;
-        height: 100px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-      }
-      .text-center{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 500px;
-        background: #fff;
-        padding: 10px;
-      }
-      .post-job{
-        background: blue;
-        color: #ddd;
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-      }
-    }
+    
   }
   .section2{
       margin: 100px 0;

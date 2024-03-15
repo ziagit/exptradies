@@ -73,7 +73,9 @@ class PagesController extends Controller
         ->whereHas('user', function ($query) {
             $query->where('status', '!=', 'Deleted');
         })
-        ->with('reviews')->latest()->take(6)->get();
+        ->with('reviews','services','address')
+        ->select('id', 'stars', 'first_name','last_name', 'business_details', 'business_name')
+        ->latest()->take(9)->get();
         return response()->json($data);
     }
 
@@ -89,7 +91,7 @@ class PagesController extends Controller
     }
 
     public function postLatest(){
-        $posts = Post::with('address', 'service', 'employee')->latest()->take(10)
+        $posts = Post::with('address', 'service', 'employee')->latest()->take(4)
             ->get();
         return response()->json($posts);
     }

@@ -65,8 +65,7 @@ import Footer from "./sub/Footer";
 import Header from "./sub/Header";
 import localData from "../shared/services/localData";
 import SearchService from "../web/sub/SearchService.vue"
-
-
+import randomColorPicker from "../shared/services/randomColorPicker";
 export default {
   name: "Posts",
   data: () => ({
@@ -107,11 +106,7 @@ export default {
       },
 
     randomBackground(){
-        let x = Math.floor(Math.random() * 256)
-        let y = Math.floor(Math.random() * 256)
-        let z = Math.floor(Math.random() * 256)
-        let bgColor = `rgb(${x}, ${y}, ${z})`
-        return bgColor;
+        return randomColorPicker.randomBackground();
       },
       getDays(date){
       let date_1 = new Date(date);
