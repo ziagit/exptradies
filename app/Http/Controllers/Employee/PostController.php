@@ -62,11 +62,10 @@ class PostController extends Controller
      */
     public function show($id)
     {
-         $post = Post::whereId($id)
-         ->with(['employees' => function($q){
+         $post = Post::with(['employees' => function($q){
             $q->wherePivot('status', 'Accepted')->with('user','address','reviews');
          }])->with('address', 'service', 'options.suboptions','images')
-         ->first();
+         ->find($id);
 
          return response()->json($post);
     }

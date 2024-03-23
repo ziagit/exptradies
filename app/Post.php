@@ -22,10 +22,10 @@ class Post extends Model
         return $this->belongsTo(Service::class);
     }
     public function options(){
-        return $this->belongsToMany(Option::class);
+        return $this->belongsToMany(Option::class)->withPivot('custom');
     }
     public function suboptions(){
-        return $this->belongsToMany(Suboption::class,'suboption_post');
+        return $this->belongsToMany(Suboption::class,'suboption_post')->withPivot('custom');
     }
     public function earning(){
         return $this->hasOne(Earning::class);

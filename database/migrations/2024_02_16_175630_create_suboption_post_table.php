@@ -17,6 +17,7 @@ class CreateSuboptionPostTable extends Migration
             $table->id();
             $table->unsignedBigInteger('post_id');
             $table->unsignedBigInteger('suboption_id');
+            $table->string('custom')->nullable();
             $table->timestamps();
         });
     }

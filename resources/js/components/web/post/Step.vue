@@ -8,7 +8,8 @@
            :optionData="currentStep.options" 
            :initData="optionArray" 
            :index="currentIndex"
-           v-on:select-option="selectOption">
+           v-on:select-option="selectOption"
+           v-on:select-custom="selectCustom">
           </StepOptions> 
         </b-card>
       </div>
@@ -41,14 +42,17 @@ export default {
     currentIndex: 0,
     selectedOption:null,
   }),
+
   computed: {
     currentStep() {
       return this.steps[this.currentIndex];
     }
   },
+
   created() {
     this.init();
   },
+  
   methods: {
     showNextStep() {
       if(!this.isSelected){
@@ -69,6 +73,7 @@ export default {
         this.$router.push("contact");
       }
     },
+
     showPreviousStep() {
       if (this.currentIndex > 0) {
         this.currentIndex--;
@@ -119,6 +124,15 @@ export default {
        this.isSelected=true;
       localData.save("optionArray",this.optionArray)
     },
+    selectCustom(index, value){
+        const foundObject = this.optionArray.find(obj => {
+            return obj.step == index;
+        });
+        foundObject.value.custom = value;
+        this.optionArray.splice(index, 1);
+        this.optionArray.push(foundObject);
+        localData.save("optionArray",this.optionArray)
+    }
   },
 };
 </script>

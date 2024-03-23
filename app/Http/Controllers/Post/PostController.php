@@ -57,22 +57,27 @@ class PostController extends Controller
     {
         $defaultText="I will provide further work details either during our conversations or through direct contact. I look for expert who can deliver exceptionally high-quality services, free from any flaws or shortcomings.";
         try{
+        
             $address = $this->storeAddress($request);
             $user = $this->storeUser($request);
             if(!$user)
             return response()->json("This email is already taken.",409);
-
+            
             $employer = $this->storeEmployer($request, $address,$user);
-    
+
             $post = new Post();
             $post->note = $request->contact['message']?$request->contact['message']:$defaultText;
             $post->service_id = $request->service['id'];
             $post->employee_id = $employer[1];
             $post->address_id = $address->id;
             $post->save();
-
-            $post->options()->attach($request->options);
-            $post->suboptions()->attach($request->suboptions);
+          
+            foreach ($request->options as $option) {
+                $post->options()->attach($option['id'],['custom'=>$option['custom']]);
+            }
+            foreach ($request->suboptions as $option) {
+                $post->suboptions()->attach($suboption['id'],['custom'=>$option['custom']]);
+            }
 
             $imageIds = $this->attachImages($request->images);
     

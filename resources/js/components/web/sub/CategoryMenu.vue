@@ -27,7 +27,6 @@ export default{
         },
         get(){
             axios.get("categories").then(res=>{
-                console.log("category: ", res.data)
                 this.categorizeServices(res.data);
             }).catch(err=>console.log(err));
         },

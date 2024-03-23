@@ -62,9 +62,11 @@ export default {
       });
 
       var sub = localData.read("suboptionArray");
-      sub.forEach((element) => {
-        this.post.suboptions.push(element.value);
-      });      
+      if(sub){
+        sub.forEach((element) => {
+          this.post.suboptions.push(element.value);
+        }); 
+      }
       this.submit();
     },
     submit() {
