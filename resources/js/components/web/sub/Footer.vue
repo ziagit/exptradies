@@ -50,9 +50,9 @@
             <li>
               <a @click="navigate('/posts')"><b>Jobs</b></a>
             </li>
-            <!-- <li>
+             <li>
               <a href="/blog" target="_blank"><b>Blog</b></a>
-            </li> -->
+            </li> 
           </ul>
         </div>
         <div class="row">

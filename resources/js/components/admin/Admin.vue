@@ -33,7 +33,7 @@
                 <b-nav-item href="#" @click="togalMenu('/admin/posts')">Jobs</b-nav-item>
                 <b-nav-item v-if="authenticated && user.role.name=='Admin'" href="#" @click="togalMenu('/admin/users')">Users</b-nav-item>
                 <div class="border-top my-3"></div>
-                <!-- <b-nav-item href="#" @click="togalMenu('/admin/blog')">Blog</b-nav-item> -->
+                <b-nav-item href="#" @click="togalMenu('/admin/blog')">Blog</b-nav-item>
                 <b-nav-item href="#" @click="togalMenu('/admin/cities')">Cities</b-nav-item>
                 <b-nav-item href="#" @click="togalMenu('/admin/faq')">Faq</b-nav-item>
                 <b-nav-item href="#" @click="togalMenu('/admin/privacy')">Privacy</b-nav-item>

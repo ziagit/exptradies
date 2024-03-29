@@ -14,7 +14,7 @@
 
 <div class="container content">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
       <a class="btn btn-outline-primary back-btn" href="/blog">Back to posts</a>
       <div class="card">
           <img src="https://picsum.photos/900/250/?image=3" class="card-img-top" alt="...">
@@ -54,22 +54,7 @@
         @endforeach
       </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-4">
-        <div class="mx-3"><h5>Top news</h5></div>
-        @foreach($tops as $top)
-            <div class="col mb-2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">{{$top->title}}</h5>
-                        <p class="card-text">{!!Str::limit($top->body,50)!!}</p>
-                        <div class="text-right">
-                            <a class="btn" href="/blog/details/{{$top->id}}">More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        @endforeach
-    </div>
+   
   </div>
     
 </div>
