@@ -3,11 +3,17 @@
     <Header v-on:togal-menu="$emit('togal-menu')" :scrollValue="scrollValue" />
     <div class="container">
       <div class="content" v-bind:class="{ changeWidth: $route.path == '/post/confirm' }">
-        <div v-if="$route.path != '/post/posted' && $route.path != '/post/verify'" class="d-flex justify-content-center text-center">
-          <radial-progress-bar :diameter="120" :completed-steps="completedSteps" :total-steps="totalSteps"
-            innerStrokeColor="#ddd" startColor="#007bff" stopColor="#007bff">
-            {{ percentage }}%
-          </radial-progress-bar>
+        <div v-if="$route.path == '/post/confirm'">
+          <p><b>Please wait...</b></p>
+          <p>Your job is posting</p>
+        </div>
+        <div>
+          <div v-if="$route.path != '/post/posted' && $route.path != '/post/verify'" class="d-flex justify-content-center text-center">
+            <radial-progress-bar :diameter="120" :completed-steps="completedSteps" :total-steps="totalSteps"
+              innerStrokeColor="#ddd" startColor="#007bff" stopColor="#007bff">
+              {{ percentage }}%
+            </radial-progress-bar>
+          </div>
         </div>
         <div style="height: 5px"></div>
         <router-view v-on:progress="progress"></router-view>

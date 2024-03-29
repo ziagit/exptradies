@@ -236,13 +236,9 @@ export default new VueRouter({
                             path: "step",
                             component: StepTemplate,
                         },
+                       
                         {
-                            path: "test",
-                            name: "testsuboptions",
-                            component: TestComponent,
-                        },
-                        {
-                            path: "suboptions",
+                            path: "options",
                             name: "suboptions",
                             component: SuboptionComponent,
                             props: true,

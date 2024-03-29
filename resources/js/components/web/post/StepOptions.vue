@@ -1,62 +1,36 @@
 <template>
   <div class="text-left">
-    <!-- <b-form-radio-group
-      v-model="selected"
-      :options="optionData"
-      value-field="id"
-      text-field="title"
-      disabled-field="notEnabled"
-    ></b-form-radio-group> -->
-
     <b-form-group>
-      <b-form-radio v-model="selected" :value="option" v-for="(option,i) in optionData" :key="i">{{option.title}}</b-form-radio>
+      <b-form-radio  
+      @change="onOptionChanged(option)" 
+      v-model="selected" 
+      :value="option.id" 
+      v-for="(option,i) in options" 
+      :key="i">{{option.title}}</b-form-radio>
     </b-form-group>
 
-    <b-form-datepicker  v-model="customValue" v-if="customField=='date'"></b-form-datepicker>
-    <b-form-input   v-model="customValue" v-if="customField=='input'"></b-form-input>
+    <b-form-datepicker v-model="customField" v-if="customDateVisibility(index)"></b-form-datepicker>
+    <b-form-input v-model="customField" v-if="customInputVisibility(index)"></b-form-input> 
 
-    <b-modal id="suboption-modal" hide-footer :title="suboptionTitle" centered>
-      <SubOption :suboptions="suboptions"  v-on:onSelected="onSubSelected"></SubOption>
-    </b-modal> 
   </div>
 </template>
 <script>
 import SubOption from './SubOption.vue';
-import localData from "../../shared/services/localData";
 
 export default {
-    props: ["optionData", "initData", "index"],
+    props: ["options", "selectedOptions", "index"],
     data: () => ({
         selected: null,
         suboptions:null,
-        suboptionTitle:null,
-        suboptionArray:[],
         customField:null,
-        customValue:null,
     }),
     watch: {
         index(newValue, oldValue) {
-            this.init();
+          this.init();
         },
-        selected(value) {
-          console.log("selected: ",value)
-            // const foundObject = this.optionData.find(obj => {
-            //     return obj.id == value;
-            // });
-
-            // if (foundObject.suboptions.length > 0) {
-            //   this.suboptionTitle = foundObject.title;
-            //   this.suboptions = foundObject.suboptions;
-            //   this.$bvModal.show('suboption-modal')
-            //     //this.$router.push({ name: 'suboptions', params: { suboptions: foundObject.suboptions } });
-            // }
-            
-            this.customField = value.custom;
-            this.$emit("select-option", { step: this.index, value: value});
-        },
-        customValue(value){
+        customField(value){
           this.$emit("select-custom", this.index,value);
-        }
+        },
     },
 
     created() {
@@ -64,48 +38,66 @@ export default {
     },
 
     methods: {
-      onSubSelected(value){
-        this.suboptionArray.push(value);
-        if (this.suboptionArray.length == 0) {
-         this.suboptionArray.push(value);
-       } else {
-         var index = -1;
-         for (var i = 0; i < this.suboptionArray.length; i++) {
-           if (
-             this.suboptionArray[i].step == value.step ||
-             this.suboptionArray[i].value == value.value
-           ) {
-             index = i;
-           }
-         }
-         if (index == -1) {
-           this.suboptionArray.push(value);
-         } else {
-           this.suboptionArray.splice(index, 1);
-           this.suboptionArray.push(value);
-         }
-       }
-       localData.save("suboptionArray",this.suboptionArray)
-       this.$bvModal.hide('suboption-modal')
+      init() {
+        this.options.forEach(option =>{
+          const found = this.selectedOptions.find(s => s.id === option.id);
+          if(found){
+            this.selected = found.id;
+            this.$parent.isSelected=true;
+            this.customField = found.custom;
+          }
+        });
       },
 
-      init() {
-        console.log("optionData: ",this.optionData)
-        console.log("initData: ",this.initData)
-        //  for (var i = 0; i < this.initData.length; i++) {
-        //    console.log("data: ",this.initData[i]);
-        //  }
-        for (var i = 0; i < this.initData.length; i++) {
-            
-          for (var j = 0; j < this.optionData.length; j++) {
-                
-               if (this.optionData[j].id == this.initData[i].value.id) {
-                    this.selected = this.initData[i].value;
-                    console.log("found: ", this.selected)
-                }
-            }
-         }
+      onOptionChanged(value){
+        this.customField = value.custom;
+        this.$emit("select-option", { step: this.index, id: value.id,custom:value.custom}, value);
       },
+   
+      isDate(value) {
+          if (typeof value === 'string') {
+              const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+
+              if (dateRegex.test(value)) {
+                  const dateObject = new Date(value);
+                  
+                  if (!isNaN(dateObject.getTime())) {
+                      return true;
+                  }
+              }
+          }
+          return false;
+      },
+
+      customDateVisibility(step){
+        if(this.selected===null){
+          return false;
+        }
+        const foundOption = this.options.find(obj => obj.id === this.selected);
+        if(foundOption){
+          if(foundOption.custom==='date' || this.isDate(foundOption.custom)){
+            return true;
+          }
+        }
+        return false;
+      },
+      customInputVisibility(step){
+        if(this.selected===null){
+          return false;
+        }
+        const foundOption = this.options.find(obj => obj.id === this.selected);
+        if(foundOption){
+          if(foundOption.custom === 'date' || this.isDate(foundOption.custom)){
+            return false;
+          }
+          if(foundOption.custom==='input' ||  typeof foundOption.custom === 'string'){
+            return true;
+          }
+        }        
+        return false;
+      },
+
+
     },
     components: { SubOption }
 };

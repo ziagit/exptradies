@@ -138,9 +138,6 @@ done.
               <b-tab title="Our Vision"><p>
             Discover a seamless and hassle-free way to get your work done with Exptradies. Our innovative online platform directly connects you to qualified local businesses, commonly known as tradies, across various service categories. Say goodbye to the time-consuming process of searching for the right professional and let Exptradies handle it for you.
               </p></b-tab>
-              <b-tab title="Core Values" active><p>
-            Discover a seamless and hassle-free way to get your work done with Exptradies. Our innovative online platform directly connects you to qualified local businesses, commonly known as tradies, across various service categories. Say goodbye to the time-consuming process of searching for the right professional and let Exptradies handle it for you.
-              </p></b-tab>
             </b-tabs>
           </div>
         </div>
@@ -260,15 +257,11 @@ export default {
   }
   .section3{
     .dark-bg{
-      background: #000;
+      background: #ddd;
       padding: 30px 0;
       .card{
-        background: #000 !important;
-        color: #fff !important;
+        background: #ddd !important;
         text-align: center !important;
-        h4{
-          color: #fff !important;
-        }
       }
     }
     img{
@@ -318,7 +311,7 @@ export default {
         position: absolute;
         right: 0;
         top: 100px;
-        background: #000;
+        background: #555555 !important;
         min-height: 600px;
         p,h2,a{
           color: #fff !important;

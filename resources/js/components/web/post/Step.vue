@@ -3,10 +3,10 @@
     <div >
       <div v-if="currentStep">
         <h2>{{ currentStep.title }}</h2>
-        <b-card class="shadow-none  ">
+        <b-card class="shadow-none">
            <StepOptions 
-           :optionData="currentStep.options" 
-           :initData="optionArray" 
+           :options="currentStep.options" 
+           :selectedOptions="selectedOptions" 
            :index="currentIndex"
            v-on:select-option="selectOption"
            v-on:select-custom="selectCustom">
@@ -16,11 +16,11 @@
     </div>
     <br />
     <div class="actions">
-      <b-button @click="showPreviousStep" variant="light">
+      <b-button @click="prevStep" variant="light">
         <b-icon icon="arrow-left"></b-icon>
       </b-button>
       <div class="tab"></div>
-      <b-button @click="showNextStep" variant="primary">
+      <b-button @click="nextStep" variant="primary">
         <b-icon icon="arrow-right"></b-icon>
       </b-button>
     </div> 
@@ -35,12 +35,13 @@ import Toaster from "../sub/Toaster.vue";
 export default {
   components: { StepOptions, Toaster },
   data: () => ({
-    optionData: null,
-    optionArray:[],
-    isSelected: false,
+    selectedOptions:[],
     steps:[],
+    isSelected: false,
     currentIndex: 0,
     selectedOption:null,
+
+    subOptions:[],
   }),
 
   computed: {
@@ -54,7 +55,7 @@ export default {
   },
   
   methods: {
-    showNextStep() {
+    nextStep() {
       if(!this.isSelected){
         this.$refs.toaster.show(
            "danger",
@@ -64,7 +65,11 @@ export default {
          );
          return;
       }
-
+      if(this.subOptions.suboptions.length>0){
+        this.$router.push({name:'suboptions', params:{data:this.subOptions}});
+        return;
+      }
+      
       if (this.currentIndex < this.steps.length - 1) {
         this.isSelected=false;
         this.currentIndex++;
@@ -74,11 +79,11 @@ export default {
       }
     },
 
-    showPreviousStep() {
+    prevStep() {
       if (this.currentIndex > 0) {
         this.currentIndex--;
         this.$emit("progress", this.currentIndex);
-        const exists = this.optionArray.some(obj => obj.step === this.currentIndex);
+        const exists = this.selectedOptions.find(obj => obj.step === this.currentIndex);
         if(exists){
           this.isSelected=true;
         }
@@ -95,48 +100,40 @@ export default {
         }else{
           this.currentIndex=this.steps.length-1;
         }
-       const options = localData.read("optionArray");
+       const options = localData.read("options");
        if(options){
-         this.optionArray = options;
+         this.selectedOptions = options;
        }
     },
 
-    selectOption(value) {
-      if (this.optionArray.length == 0) {
-         this.optionArray.push(value);
-       } else {
-         var index = -1;
-         for (var i = 0; i < this.optionArray.length; i++) {
-           if (
-             this.optionArray[i].step == value.step ||
-             this.optionArray[i].value == value.value
-           ) {
-             index = i;
-           }
-         }
-         if (index == -1) {
-           this.optionArray.push(value);
-         } else {
-           this.optionArray.splice(index, 1);
-           this.optionArray.push(value);
-         }
-       }
-       this.isSelected=true;
-      localData.save("optionArray",this.optionArray)
+    selectOption(value,sub) {
+      this.subOptions = sub;
+      const foundIndex = this.selectedOptions.findIndex(obj => obj.step === value.step || obj.id === value.id);
+      if(foundIndex===-1){
+        this.selectedOptions.push(value);
+      }else{
+        this.selectedOptions[foundIndex] = value;
+      }
+      this.isSelected=true;
+      localData.save("options",this.selectedOptions)
     },
-    selectCustom(index, value){
-        const foundObject = this.optionArray.find(obj => {
-            return obj.step == index;
-        });
-        foundObject.value.custom = value;
-        this.optionArray.splice(index, 1);
-        this.optionArray.push(foundObject);
-        localData.save("optionArray",this.optionArray)
+
+    selectCustom(index, value) {
+        const foundIndex = this.selectedOptions.findIndex(obj => obj.step === index);
+        if (foundIndex !== -1) {
+            this.selectedOptions[foundIndex].custom = value;
+            localData.save("options",this.selectedOptions)
+        } else {
+            console.error('Object not found for index:', index);
+        }
     }
   },
 };
 </script>
 <style scoped lang="scss">
+.card{
+  overflow: visible !important;
+}
 .actions {
   display: flex;
   justify-content: center;

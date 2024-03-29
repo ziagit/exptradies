@@ -22,7 +22,7 @@
           <ul>
             <div class="break"></div>
             <li>
-              <a @click="navigate('/')"><img src="/images/home/logo_text.png" alt="" width="140"></a>
+              <a @click="navigate('/')"><img src="/images/footer/logo-white.jpeg" alt="" width="140"></a>
             </li>
             <li>
              <small v-if="company">{{company.phone}}</small>
@@ -59,10 +59,10 @@
             <p class="mb-0"><b>Manage your leads on the go</b></p>
             <p>Instantly get notified of new job requests and be the first one to quote.</p>
             <div class="d-flex">
-              <a @click="external('https://apps.apple.com/us/app/exptradies/id6450024263')"><img :src="'/images/footer/apple-store.svg'" alt=""
+              <a @click="external('https://apps.apple.com/us/app/exptradies/id6450024263')"><img :src="'/images/footer/app-store-white.jpeg'" alt=""
                   width="120" /></a>
               <div style="width:10px;"></div>
-              <a @click="external('https://play.google.com/store/apps/details?id=com.exptradies.business')"><img :src="'/images/footer/google-play.svg'" alt=""
+              <a @click="external('https://play.google.com/store/apps/details?id=com.exptradies.business')"><img :src="'/images/footer/google-play-white.jpeg'" alt=""
                   width="120" /></a>
             </div>
         </div>
@@ -132,14 +132,14 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  background: #e1f0ff;
+  background: #000;
   min-height: 150px;
   .blue-head{
     background: blue;
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    color: #fff;
+    color: #fff !important;
     h2{
       color: #fff !important;
     }
@@ -160,7 +160,7 @@ export default {
 
     .row {
       flex: 25%;
-
+      color: #fff !important;
       .md-headline {
         font-size: 18px;
         font-weight: 500;
@@ -180,9 +180,9 @@ export default {
         li {
           list-style-type: none;
           margin-bottom: 8px;
-
+          color: #fff !important;
           a {
-            color: #54575a;
+            color: #fff !important;
           }
         }
       }
@@ -200,13 +200,13 @@ export default {
     justify-content: space-between;
     flex-direction: column;
     margin-top: 30px;
-    color: #54575a;
+    color: #fff;
 
     span {
       margin-top: 8px;
       font-size: 14px;
       a {
-        color: rgb(121, 120, 120);
+        color: #fff !important;
       }
     }
   }
