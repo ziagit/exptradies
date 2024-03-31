@@ -22,7 +22,7 @@
           <ul>
             <div class="break"></div>
             <li>
-              <a @click="navigate('/')"><img src="/images/footer/logo-white.jpeg" alt="" width="140"></a>
+              <a @click="navigate('/')"><img src="/images/footer/logo.png" alt="" width="140"></a>
             </li>
             <li>
              <small v-if="company">{{company.phone}}</small>
@@ -59,10 +59,10 @@
             <p class="mb-0"><b>Manage your leads on the go</b></p>
             <p>Instantly get notified of new job requests and be the first one to quote.</p>
             <div class="d-flex">
-              <a @click="external('https://apps.apple.com/us/app/exptradies/id6450024263')"><img :src="'/images/footer/app-store-white.jpeg'" alt=""
+              <a @click="external('https://apps.apple.com/us/app/exptradies/id6450024263')"><img :src="'/images/footer/appstore.png'" alt=""
                   width="120" /></a>
               <div style="width:10px;"></div>
-              <a @click="external('https://play.google.com/store/apps/details?id=com.exptradies.business')"><img :src="'/images/footer/google-play-white.jpeg'" alt=""
+              <a @click="external('https://play.google.com/store/apps/details?id=com.exptradies.business')"><img :src="'/images/footer/googleplay.png'" alt=""
                   width="120" /></a>
             </div>
         </div>
