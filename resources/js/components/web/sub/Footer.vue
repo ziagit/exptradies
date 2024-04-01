@@ -135,7 +135,7 @@ export default {
   background: #000;
   min-height: 150px;
   .blue-head{
-    background: blue;
+    background: #212181;
     padding: 30px;
     display: flex;
     justify-content: space-between;
