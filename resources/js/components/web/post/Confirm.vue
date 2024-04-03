@@ -55,18 +55,9 @@ export default {
       this.post.address = localData.read("address");
       this.post.images = localData.read("item-images")
       this.post.emp_id = localData.read('emp_id');
+      this.post.options = localData.read('options');
+      this.post.suboptions = localData.read('suboptions');
 
-      var opts = localData.read("optionArray");
-      opts.forEach((element) => {
-        this.post.options.push(element.value);
-      });
-
-      var sub = localData.read("suboptionArray");
-      if(sub){
-        sub.forEach((element) => {
-          this.post.suboptions.push(element.value);
-        }); 
-      }
       this.submit();
     },
     submit() {

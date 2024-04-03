@@ -72,11 +72,15 @@ class PostController extends Controller
             $post->address_id = $address->id;
             $post->save();
           
+            
             foreach ($request->options as $option) {
                 $post->options()->attach($option['id'],['custom'=>$option['custom']]);
             }
-            foreach ($request->suboptions as $option) {
-                $post->suboptions()->attach($suboption['id'],['custom'=>$option['custom']]);
+
+            if($request->suboptions){
+                foreach ($request->suboptions as $option) {
+                    $post->suboptions()->attach($option['id'],['custom'=>$option['custom']]);
+                }
             }
 
             $imageIds = $this->attachImages($request->images);

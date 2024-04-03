@@ -24,9 +24,6 @@ import Location from "./components/web/post/Location.vue";
 import StepTemplate from "./components/web/post/Step.vue";
 import Contact from "./components/web/post/Contact.vue";
 
-import SuboptionComponent from "./components/web/post/SubOption.vue";
-import TestComponent from "./components/web/post/Test.vue";
-
 import Confirm from "./components/web/post/Confirm.vue";
 
 import Employee from "./components/web/employee/Employee.vue";
@@ -237,12 +234,6 @@ export default new VueRouter({
                             component: StepTemplate,
                         },
                        
-                        {
-                            path: "options",
-                            name: "suboptions",
-                            component: SuboptionComponent,
-                            props: true,
-                        },
                         {
                             path: "contact",
                             component: Contact,

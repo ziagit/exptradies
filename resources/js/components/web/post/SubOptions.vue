@@ -2,17 +2,18 @@
   <div class="text-left">
     <div class="text-center"><h2 v-if="option">{{ option.title }}</h2></div>
     <b-card>
-      <b-form-group v-if="option">
+      <b-form-group v-if="options">
         <b-form-radio
         @change="onOptionChanged(option)" 
         v-model="selected"
         :value="option.id"
-        v-for="(option,i) in option.suboptions"
+        v-for="(option,i) in options.suboptions"
         :key="i">{{option.title}}</b-form-radio>
       </b-form-group>
       <b-form-datepicker v-model="customField" v-if="customDateVisibility()"></b-form-datepicker>
       <b-form-input v-model="customField" v-if="customInputVisibility()"></b-form-input> 
     </b-card>
+    <br />
     <div class="actions">
       <b-button @click="prevStep" variant="light">
         <b-icon icon="arrow-left"></b-icon>
@@ -30,12 +31,13 @@ import localData from "../../shared/services/localData";
 import Toaster from "../sub/Toaster.vue";
 
 export default {
+  props:['options'],
   components:{ Toaster},
     data: () => ({
         selected: null,
         option:null,
         customField:null,
-        suboptions:[],
+        selectedOptions:[],
     }),
 
     mounted(){
@@ -44,30 +46,31 @@ export default {
 
     methods: {
       init() {
-        const x = localData.read("suboptions");
-        if(x){
-          this.suboptions = x;
+        const list = localData.read("suboptions");
+        if(list){
+          this.selectedOptions = list;
         }
-        this.option = this.$route.params.data;
-  
-        // this.option.suboptions.forEach(option =>{
-        //   const found = this.suboptions.find(sub => sub.id === option.id);
-        //   if(found){
-        //     this.selected = found.id;
-        //     this.customField = found.custom;
-        //   }
-        // });
+        this.options.suboptions.forEach(option =>{
+          const found = this.selectedOptions.find(sub => sub.id === option.id);
+          if(found){
+            this.selected = found.id;
+            this.customField = found.custom;
+          }
+        });
       },
 
       onOptionChanged(value){
-        const foundIndex = this.suboptions.findIndex(obj => obj.id === value.id);
-        if(foundIndex===-1){
-          this.suboptions.push(value);
+        if(this.selectedOptions.length>0){
+          const foundIndex = this.selectedOptions.findIndex(obj=>obj.option_id===value.option_id);
+          if(foundIndex===-1){
+            this.selectedOptions.push(value);
+          }else{
+            this.selectedOptions[foundIndex] = value;
+          }
         }else{
-          this.suboptions[foundIndex] = value;
+          this.selectedOptions.push(value);
         }
-        this.isSelected=true;
-        localData.save("suboptions",this.suboptions)
+        localData.save("suboptions",this.selectedOptions)
       },
    
       isDate(value) {
@@ -86,11 +89,10 @@ export default {
       },
 
       customDateVisibility(){
-        return;
         if(this.selected===null){
           return false;
         }
-        const foundOption = this.option.suboptions.find(obj => obj.id === this.selected);
+        const foundOption = this.options.suboptions.find(obj => obj.id === this.selected);
         if(foundOption){
           if(foundOption.custom==='date' || this.isDate(foundOption.custom)){
             return true;
@@ -99,11 +101,10 @@ export default {
         return false;
       },
       customInputVisibility(){
-        return;
         if(this.selected===null){
           return false;
         }
-        const foundOption = this.option.suboptions.find(obj => obj.id === this.selected);
+        const foundOption = this.options.suboptions.find(obj => obj.id === this.selected);
         if(foundOption){
           if(foundOption.custom === 'date' || this.isDate(foundOption.custom)){
             return false;
@@ -115,7 +116,7 @@ export default {
         return false;
       },
       nextStep() {
-        if(!this.isSelected){
+        if(this.selected===null){
           this.$refs.toaster.show(
             "danger",
             "b-toaster-top-center",
@@ -124,11 +125,10 @@ export default {
           );
           return;
         }
-        
-        this.$router.back();
+        this.$emit('next');
       },
       prevStep() {
-       this.$router.back();
+        this.$emit('prev');
       },
     },
 };

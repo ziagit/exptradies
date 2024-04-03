@@ -15,7 +15,6 @@
   </div>
 </template>
 <script>
-import SubOption from './SubOption.vue';
 
 export default {
     props: ["options", "selectedOptions", "index"],
@@ -96,10 +95,7 @@ export default {
         }        
         return false;
       },
-
-
     },
-    components: { SubOption }
 };
 </script>
 <style>
