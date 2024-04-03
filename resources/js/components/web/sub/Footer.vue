@@ -70,10 +70,10 @@
       <div class="bottom">
         <div class="row">
           <div class="icons">
-            <a @click="external('https://twitter.com/exptradies')"><img :src="'/images/footer/twitter.svg'" alt="" width="25" /></a>
-            <a @click="external('https://www.instagram.com/exptradie/')"><img :src="'/images/footer/instagram.svg'" alt="" width="25" /></a>
-            <a @click="external('https://www.facebook.com/exptradies/')"><img :src="'/images/footer/facebook.svg'" alt="" width="25" /></a>
-            <a @click="external('https://www.linkedin.com/company/exptradies/')"><img :src="'/images/footer/linkedin.svg'" alt="" width="25" /></a>
+            <a @click="external('https://twitter.com/exptradies')"><img :src="'/images/footer/twitter.png'" alt="" width="25" /></a>
+            <a @click="external('https://www.instagram.com/exptradie/')"><img :src="'/images/footer/instagram.png'" alt="" width="25" /></a>
+            <a @click="external('https://www.facebook.com/exptradies/')"><img :src="'/images/footer/facebook.png'" alt="" width="25" /></a>
+            <a @click="external('https://www.linkedin.com/company/exptradies/')"><img :src="'/images/footer/linkedin.png'" alt="" width="25" /></a>
           </div>
         </div>
         <div class="break"></div>
