@@ -31,7 +31,7 @@ export default {
       isSubmitting: false,
       isLoading: true,
 
-      key: "0509filtyc6kx0mc2h15cbduztivsp8ztpjh5y739pkx5qh0",
+      key: "lglw0kidqlh3ll963z5thjshwi73aprtatpciu1jxi6sg8d4",
       config: {
         height: 500,
         menubar: false,
